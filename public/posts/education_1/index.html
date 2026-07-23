@@ -1,0 +1,3581 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Обучение | Александр Шубин. Портфолио.</title>
+<meta name="keywords" content="">
+<meta name="description" content="Август 2010 — Февраль 2016.
+В рамках процесса обучения, реализовал несколько десятков учебных
+приложений по различным темам/аспектам технологий Apple (включая такие темы, как
+CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.
+Форум игры Timezero.
+В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не
+webview).
+Цель - написание нативного приложения для работы с форумом игры (не webview).
+Основной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.">
+<meta name="author" content="">
+<link rel="canonical" href="https://infoweb77.github.io/posts/education_1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://infoweb77.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infoweb77.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infoweb77.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infoweb77.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infoweb77.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://infoweb77.github.io/posts/education_1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://infoweb77.github.io/posts/education_1/">
+  <meta property="og:site_name" content="Александр Шубин. Портфолио.">
+  <meta property="og:title" content="Обучение">
+  <meta property="og:description" content="Август 2010 — Февраль 2016. В рамках процесса обучения, реализовал несколько десятков учебных приложений по различным темам/аспектам технологий Apple (включая такие темы, как CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.
+Форум игры Timezero. В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не webview).
+Цель - написание нативного приложения для работы с форумом игры (не webview).
+Основной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-02-27T18:25:21+03:00">
+    <meta property="article:modified_time" content="2016-02-27T18:25:21+03:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Обучение">
+  <meta name="twitter:description" content="Август 2010 — Февраль 2016. В рамках процесса обучения, реализовал несколько десятков учебных приложений по различным темам/аспектам технологий Apple (включая такие темы, как CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.
+Форум игры Timezero. В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не webview).
+Цель - написание нативного приложения для работы с форумом игры (не webview).
+Основной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://infoweb77.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Обучение",
+      "item": "https://infoweb77.github.io/posts/education_1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Обучение",
+  "name": "Обучение",
+  "description": "Август 2010 — Февраль 2016. В рамках процесса обучения, реализовал несколько десятков учебных приложений по различным темам/аспектам технологий Apple (включая такие темы, как CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.\nФорум игры Timezero. В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не webview).\nЦель - написание нативного приложения для работы с форумом игры (не webview).\nОсновной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Август 2010 — Февраль 2016. В рамках процесса обучения, реализовал несколько десятков учебных приложений по различным темам/аспектам технологий Apple (включая такие темы, как CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.\nФорум игры Timezero. В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не webview).\nЦель - написание нативного приложения для работы с форумом игры (не webview).\nОсновной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.\n× ❮ ❯ Язык - Objective-C. Основные фрэймворки: CoreText, ImageIO, Core Graphics, Core Image, UIKit, System Configuration.\nПриложение Flikr Search for iPad. Цель - изучение поиска и загрузки фотографий с помощью Flickr API, а также возможностей UICollectionViewController.\nПриложение с помощью Flickr API ищет по запросу последние загруженные фотографии на серверах Flickr, скачивает их и отображает с помощью UICollectionView. Реализованы 4 кастомные раскладки UICollectionView.\n× ❮ ❯ Язык - Objective-C. Основные фрэймворки: Core Graphics, QuartzCore, UIKit, MessageUI.\nПриложение Cafe Hunter. Цель - изучение использования библиотек ObjC-кода в Swift-приложениях, а также работы с Facebook iOS SDK и Facebook Graph API.\nПриложение использует Facebook iOS SDK и Facebook Graph API для загрузки списка кафе, расположенных поблизости от текущего местоположения пользователя. Данные отдает Facebook, кафе должно быть нем зарегистрировано..\n× ❮ ❯ Язык - Swift 1.2. Основной фрэймворк - Facebook iOS SDK.\nПриложение NASA TV. Цель - изучение возможностей Multitasking API: фоновое обновление контента и фоновая загрузка файлов приложения.\n× ❮ ❯ Язык - Objective-C. Основные фрэймворки: Core Graphics, Security, MobileCoreServices, QuartzCore, CFNetwork, AudioToolbox, Parse, MediaPlayer, CoreData, UIKit, System Configuration, Multitasking API.\nПриложение Pass Preview. Цель - написание приложения для загрузки и просмотра pass-билетов и купонов в симуляторе iPhone.\n× ❮ ❯ Язык - Objective-C. Основной фрэймворк - PassKit.\nПриложение Textkit Magazine. Цель - изучение возможностей фреймворка TextKit.\nПриложение загружает текстовый файл книги Alice’s adventures in wonderland, парсит, создает отображение текущей страницы в многоколоночном режиме, применяет таблицы стилей к разным фрагментам текста, организует навигацию по главам, подгружает и показывает картинки.\n× ❮ ❯ Язык - Objective-C. Основные фрэймворки: TextKit, Core Graphics, Foundation, UIKit.\n",
+  "wordCount" : "358",
+  "inLanguage": "en",
+  "datePublished": "2016-02-27T18:25:21+03:00",
+  "dateModified": "2016-02-27T18:25:21+03:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://infoweb77.github.io/posts/education_1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Александр Шубин. Портфолио.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://infoweb77.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://infoweb77.github.io/" accesskey="h" title="Александр Шубин. Портфолио. (Alt + H)">Александр Шубин. Портфолио.</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://infoweb77.github.io/" title="Александр Шубин. Портфолио.">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infoweb77.github.io/cv/" title="Резюме">
+                    <span>Резюме</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Обучение
+    </h1>
+    <div class="post-meta">
+
+<span title='2016-02-27 18:25:21 +0300 MSK'>27 февраля 2016 г.</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h4 id="август-2010--февраль-2016">Август 2010 — Февраль 2016.<a hidden class="anchor" aria-hidden="true" href="#август-2010--февраль-2016">#</a></h4>
+<p>В рамках процесса обучения, реализовал несколько десятков учебных
+приложений по различным темам/аспектам технологий Apple (включая такие темы, как
+CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.</p>
+<h3 id="форум-игры-timezero">Форум игры Timezero.<a hidden class="anchor" aria-hidden="true" href="#форум-игры-timezero">#</a></h3>
+<p>В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не
+webview).</p>
+<p>Цель - написание нативного приложения для работы с форумом игры (не webview).</p>
+<p>Основной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-9125cdfe25edc21aac1fc3fcc28fd950">
+  
+  <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+  
+  <div class="gallery-item" data-index="0" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/1.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/1.png" 
+             alt=""
+             onclick="openLightbox('gallery',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/1.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/1.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/2.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/2.png" 
+             alt=""
+             onclick="openLightbox('gallery',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/2.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/2.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/3.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/3.png" 
+             alt=""
+             onclick="openLightbox('gallery',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/3.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/3.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/4.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/4.png" 
+             alt=""
+             onclick="openLightbox('gallery',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/4.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/4.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/5.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/5.png" 
+             alt=""
+             onclick="openLightbox('gallery',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/5.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/5.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/6.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/6.png" 
+             alt=""
+             onclick="openLightbox('gallery',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/6.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/6.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="6" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/7.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/7.png" 
+             alt=""
+             onclick="openLightbox('gallery',  6 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/7.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/7.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="7" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/8.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/8.png" 
+             alt=""
+             onclick="openLightbox('gallery',  7 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/8.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/8.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="8" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/personal/forum/9.png');">
+        <img itemprop="thumbnail" 
+             src="/images/personal/forum/9.png" 
+             alt=""
+             onclick="openLightbox('gallery',  8 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/personal/forum/9.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/images\/personal\/forum\/9.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Objective-C. Основные фрэймворки: CoreText, ImageIO, Core Graphics, Core Image, UIKit, System Configuration.</p>
+<hr>
+<h3 id="приложение-flikr-search-for-ipad">Приложение Flikr Search for iPad.<a hidden class="anchor" aria-hidden="true" href="#приложение-flikr-search-for-ipad">#</a></h3>
+<p>Цель - изучение поиска и загрузки фотографий с помощью Flickr API, а также возможностей UICollectionViewController.</p>
+<p>Приложение с помощью Flickr API ищет по запросу последние загруженные фотографии на серверах Flickr, скачивает их и отображает с помощью UICollectionView. Реализованы 4 кастомные раскладки UICollectionView.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-94a172aa1e7097189a25b91e4546f6e1">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr1.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr1.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr1.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr1.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr2.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr2.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr2.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr2.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr3.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr3.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr3.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr3.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr4.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr4.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr4.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr4.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr5.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr5.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr5.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr5.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="9125cdfe25edc21aac1fc3fcc28fd950">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/flikr6.png');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/flikr6.png" 
+             alt=""
+             onclick="openLightbox('9125cdfe25edc21aac1fc3fcc28fd950',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/flikr6.png" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '9125cdfe25edc21aac1fc3fcc28fd950';
+    const src = '\/images\/apps\/flikr6.png';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Objective-C. Основные фрэймворки: Core Graphics, QuartzCore, UIKit, MessageUI.</p>
+<hr>
+<h3 id="приложение-cafe-hunter">Приложение Cafe Hunter.<a hidden class="anchor" aria-hidden="true" href="#приложение-cafe-hunter">#</a></h3>
+<p>Цель - изучение использования библиотек ObjC-кода в Swift-приложениях, а также работы с Facebook iOS SDK и Facebook Graph API.</p>
+<p>Приложение использует Facebook iOS SDK и Facebook Graph API для загрузки списка кафе, расположенных поблизости от текущего местоположения пользователя. Данные отдает Facebook, кафе должно быть нем зарегистрировано..</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-929bb2e2d788fd32d636c86f051fadc4">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter1.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter1.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter1.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter2.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter2.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter2.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter3.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter3.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter3.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter4.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter4.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter4.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter5.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter5.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter5.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter5.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="94a172aa1e7097189a25b91e4546f6e1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/hunter/hunter6.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/hunter/hunter6.jpg" 
+             alt=""
+             onclick="openLightbox('94a172aa1e7097189a25b91e4546f6e1',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/hunter/hunter6.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '94a172aa1e7097189a25b91e4546f6e1';
+    const src = '\/images\/apps\/hunter\/hunter6.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Swift 1.2. Основной фрэймворк - Facebook iOS SDK.</p>
+<hr>
+<h3 id="приложение-nasa-tv">Приложение NASA TV.<a hidden class="anchor" aria-hidden="true" href="#приложение-nasa-tv">#</a></h3>
+<p>Цель - изучение возможностей Multitasking API: фоновое обновление контента и фоновая загрузка файлов приложения.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-d25833462bbb2a908501eb3a4645fc04">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_1.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_1.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_1.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_2.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_2.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_2.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_3.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_3.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_3.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_4.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_4.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_4.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_5.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_5.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_5.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_5.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="929bb2e2d788fd32d636c86f051fadc4">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/nasa/NASA_TV_6.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/nasa/NASA_TV_6.jpg" 
+             alt=""
+             onclick="openLightbox('929bb2e2d788fd32d636c86f051fadc4',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/nasa/NASA_TV_6.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '929bb2e2d788fd32d636c86f051fadc4';
+    const src = '\/images\/apps\/nasa\/NASA_TV_6.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Objective-C. Основные фрэймворки: Core Graphics, Security, MobileCoreServices, QuartzCore, CFNetwork, AudioToolbox, Parse, MediaPlayer, CoreData, UIKit, System Configuration, Multitasking API.</p>
+<hr>
+<h3 id="приложение-pass-preview">Приложение Pass Preview.<a hidden class="anchor" aria-hidden="true" href="#приложение-pass-preview">#</a></h3>
+<p>Цель - написание приложения для загрузки и просмотра pass-билетов и купонов в симуляторе iPhone.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-0031ad8a93ed2ce9b585bfc29c2f2cc8">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass1.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass1.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass1.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass2.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass2.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass2.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass3.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass3.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass3.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass4.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass4.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass4.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass5.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass5.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass5.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass5.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="d25833462bbb2a908501eb3a4645fc04">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/pass/pass6.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/pass/pass6.jpg" 
+             alt=""
+             onclick="openLightbox('d25833462bbb2a908501eb3a4645fc04',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/pass/pass6.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'd25833462bbb2a908501eb3a4645fc04';
+    const src = '\/images\/apps\/pass\/pass6.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Objective-C. Основной фрэймворк - PassKit.</p>
+<hr>
+<h3 id="приложение-textkit-magazine">Приложение Textkit Magazine.<a hidden class="anchor" aria-hidden="true" href="#приложение-textkit-magazine">#</a></h3>
+<p>Цель - изучение возможностей фреймворка TextKit.</p>
+<p>Приложение загружает текстовый файл книги  Alice&rsquo;s adventures in wonderland, парсит, создает отображение текущей страницы в многоколоночном режиме, применяет таблицы стилей к разным фрагментам текста, организует навигацию по главам, подгружает и показывает картинки.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-3d492a26d3e453e59ed1ebd2ed38d775">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="0031ad8a93ed2ce9b585bfc29c2f2cc8">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/read/read1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/read/read1.jpg" 
+             alt=""
+             onclick="openLightbox('0031ad8a93ed2ce9b585bfc29c2f2cc8',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/read/read1.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+    const src = '\/images\/apps\/read\/read1.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="0031ad8a93ed2ce9b585bfc29c2f2cc8">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/read/read2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/read/read2.jpg" 
+             alt=""
+             onclick="openLightbox('0031ad8a93ed2ce9b585bfc29c2f2cc8',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/read/read2.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+    const src = '\/images\/apps\/read\/read2.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="0031ad8a93ed2ce9b585bfc29c2f2cc8">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/read/read3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/read/read3.jpg" 
+             alt=""
+             onclick="openLightbox('0031ad8a93ed2ce9b585bfc29c2f2cc8',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/read/read3.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+    const src = '\/images\/apps\/read\/read3.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="0031ad8a93ed2ce9b585bfc29c2f2cc8">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/read/read4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/read/read4.jpg" 
+             alt=""
+             onclick="openLightbox('0031ad8a93ed2ce9b585bfc29c2f2cc8',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/read/read4.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+    const src = '\/images\/apps\/read\/read4.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="0031ad8a93ed2ce9b585bfc29c2f2cc8">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/images/apps/read/read5.jpg');">
+        <img itemprop="thumbnail" 
+             src="/images/apps/read/read5.jpg" 
+             alt=""
+             onclick="openLightbox('0031ad8a93ed2ce9b585bfc29c2f2cc8',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/images/apps/read/read5.jpg" itemprop="contentUrl"></a>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0031ad8a93ed2ce9b585bfc29c2f2cc8';
+    const src = '\/images\/apps\/read\/read5.jpg';
+    const caption = '';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = '3d492a26d3e453e59ed1ebd2ed38d775';
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex !important';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none !important';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<p>Язык - Objective-C. Основные фрэймворки: TextKit, Core Graphics, Foundation, UIKit.</p>
+<hr>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© Александр Шубин</span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

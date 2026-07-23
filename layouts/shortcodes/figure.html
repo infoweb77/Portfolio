@@ -1,0 +1,62 @@
+<!--
+Put this file in /layouts/shortcodes/figure.html
+NB this overrides Hugo's built-in "figure" shortcode but is backwards compatible
+-->
+{{- $src := .Get "src" }}
+{{- $caption := .Get "caption" | default (.Get "alt") | default "" }}
+{{- $galleryId := .Page.Scratch.Get "galleryId" | default "gallery" }}
+{{- $index := .Page.Scratch.Get "galleryIndex" | default 0 }}
+{{- .Page.Scratch.Set "galleryIndex" (add $index 1) }}
+
+{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href={{ "css/hugo-easy-gallery.css" | relURL }} />{{ end }}
+{{- $.Page.Scratch.Add "figurecount" 1 -}}
+
+<!-- use either src or link-thumb for thumbnail image -->
+{{- $thumb := .Get "src" | default (printf "%s." (.Get "thumb") | replace (.Get "link") ".") }}
+
+<div class="gallery-item" data-index="{{ $index }}" data-gallery="{{ $galleryId }}">
+  <figure {{ with .Get "class" }}class="{{.}}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img"{{ if .Parent }} style="background-image: url('{{ $thumb | relURL }}');"{{ end }}{{ with .Get "size" }} data-size="{{.}}"{{ end }}>
+      <img itemprop="thumbnail" 
+           src="{{ $thumb | relURL }}" 
+           alt="{{ $caption }}"
+           onclick="openLightbox('{{ $galleryId }}', {{ $index }})"
+           loading="lazy" />
+    </div>
+    {{ with .Get "link" | default (.Get "src") }}<a href="{{ . | relURL }}" itemprop="contentUrl"></a>{{ end }}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+      <figcaption>
+        {{- with .Get "title" }}<h4>{{.}}</h4>{{ end }}
+        {{- if or (.Get "caption") (.Get "attr")}}
+          <p>
+            {{- .Get "caption" -}}
+            {{- with .Get "attrlink"}}<a href="{{.}}">{{ .Get "attr" }}</a>{{ else }}{{ .Get "attr"}}{{ end -}}
+          </p>
+        {{- end }}
+      </figcaption>
+    {{- end }}
+  </figure>
+</div>
+
+<!-- Добавляем данные в глобальный массив с уникальным ID -->
+<script>
+(function() {
+  const galleryId = '{{ $galleryId }}';
+  const src = '{{ $src | relURL }}';
+  const caption = '{{ $caption }}';
+  
+  window.galleryData = window.galleryData || {};
+  if (!window.galleryData[galleryId]) {
+    window.galleryData[galleryId] = [];
+  }
+  
+  // Проверяем, не добавлено ли уже это изображение
+  const exists = window.galleryData[galleryId].some(item => item.src === src);
+  if (!exists) {
+    window.galleryData[galleryId].push({
+      src: src,
+      caption: caption
+    });
+  }
+})();
+</script>

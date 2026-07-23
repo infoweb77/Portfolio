@@ -1,0 +1,2419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Александр Шубин. Портфолио.</title>
+    <link>https://infoweb77.github.io/posts/</link>
+    <description>Recent content in Posts on Александр Шубин. Портфолио.</description>
+    <generator>Hugo</generator>
+    <language>ru-ru</language>
+    <copyright>Александр Шубин</copyright>
+    <lastBuildDate>Tue, 30 Jun 2026 07:07:07 +0100</lastBuildDate>
+    <atom:link href="https://infoweb77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Раппорто</title>
+      <link>https://infoweb77.github.io/posts/rapporto/</link>
+      <pubDate>Tue, 30 Jun 2026 07:07:07 +0100</pubDate>
+      <guid>https://infoweb77.github.io/posts/rapporto/</guid>
+      <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
+&lt;h4 id=&#34;март-2021--июнь-2026&#34;&gt;Март 2021 — Июнь 2026.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;обязанности---разработка-и-поддержание-в-актуальном-виде-rapporto-ios-push-sdk-obj-c--и--swift-версии-а-также-web-push-sdk-javascript-для-встраивания-в-приложения-партнеров&#34;&gt;Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и  Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров.&lt;/h4&gt;
+&lt;p&gt;Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Раппорто</title>
+      <link>https://infoweb77.github.io/posts/rapporto_2/</link>
+      <pubDate>Mon, 29 Jun 2026 07:07:07 +0100</pubDate>
+      <guid>https://infoweb77.github.io/posts/rapporto_2/</guid>
+      <description>&lt;h2 id=&#34;кроссплатформенные-решения&#34;&gt;Кроссплатформенные решения.&lt;/h2&gt;
+&lt;h4 id=&#34;март-2021--июнь-2026&#34;&gt;Март 2021 — Июнь 2026.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;разработка-sdk-для-веб-пушей&#34;&gt;Разработка SDK для веб-пушей.&lt;/h3&gt;
+&lt;h4 id=&#34;благодаря-веб-приложениям-пользователи-получили-возможность-взаимодействовать-с-веб-контентом-так-же-как-с-нативными-приложениями-включая-получение-push-сообщений&#34;&gt;Благодаря веб-приложениям пользователи получили возможность взаимодействовать с веб-контентом так же, как с нативными приложениями, включая получение push-сообщений.&lt;/h4&gt;
+&lt;p&gt;Функциональные возможности Web Push SDK:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;приём и отображение push-сообщений, отправленных в браузер/на мобильное устройство с помощью Push API через соответствующие сервисы, в том числе содержащих расширенный медиаконтент (изображения, кнопки);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;сохранение принятых веб push-сообщений в локальной базе данных;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;отслеживание доставки и открытия push-сообщений с отправкой соответствующих запросов на сервер.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обучение</title>
+      <link>https://infoweb77.github.io/posts/education/</link>
+      <pubDate>Sun, 28 Jun 2026 07:07:07 +0100</pubDate>
+      <guid>https://infoweb77.github.io/posts/education/</guid>
+      <description>&lt;h4 id=&#34;март-2021--настоящее-время&#34;&gt;Март 2021 — настоящее время.&lt;/h4&gt;
+&lt;h3 id=&#34;приложение-superstorage&#34;&gt;Приложение SuperStorage.&lt;/h3&gt;
+&lt;p&gt;Цель - изучение новой конкурентной модели Swift (async/await).&lt;/p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-5c9d32e4a330c70f1432621bfe9e21e3&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_1.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_1.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_1.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_2.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_2.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_2.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_3.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_3.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_3.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_4.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_4.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_4.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_5.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_5.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_5.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_6.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_6.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/rapp\/edu\/storage\/storage_6.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+
+&lt;/div&gt;
+
+
+&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34; style=&#34;display:none;&#34;&gt;
+  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
+  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
+  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
+  
+  &lt;div class=&#34;lightbox-container&#34;&gt;
+    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = &#39;5c9d32e4a330c70f1432621bfe9e21e3&#39;;
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.add(&#39;show&#39;);
+  modal.style.display = &#39;flex !important&#39;;
+  document.body.style.overflow = &#39;hidden&#39;;
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.remove(&#39;show&#39;);
+  modal.style.display = &#39;none !important&#39;;
+  document.body.style.overflow = &#39;auto&#39;;
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById(&#39;lightbox-img&#39;);
+  const counter = document.getElementById(&#39;lightbox-counter&#39;);
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener(&#39;keydown&#39;, function(e) {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal.classList.contains(&#39;show&#39;)) {
+    if (e.key === &#39;Escape&#39;) closeLightbox();
+    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
+    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal) {
+    modal.addEventListener(&#39;click&#39;, function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/infoweb77/SuperStorage&#34;&gt;Проект на Github&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Промсвязьбанк</title>
+      <link>https://infoweb77.github.io/posts/psb/</link>
+      <pubDate>Sun, 28 Feb 2021 17:10:17 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/psb/</guid>
+      <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
+&lt;h4 id=&#34;сентябрь-2019--февраль-2021&#34;&gt;Сентябрь 2019 — Февраль 2021.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.psbank.ru&#34;&gt;www.psbank.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;результаты&#34;&gt;Результаты:&lt;/h3&gt;
+&lt;p&gt;Дан старт редизайну приложения. Переработана главная страница + cозданы с нуля 5 новых
+экранов: обратной связи, получения выписки, информации о средствах на всех счетах клиента,
+экран чата и экран смены пароля. По некоторым задачам в рамках редизайна изменения
+касались более 80 экранов.&lt;/p&gt;
+&lt;p&gt;В рамках разработки элементов для Дизайн-Системы написано около 10 модулей для
+применения всеми членами команды.&lt;/p&gt;
+&lt;p&gt;Язык приложения - Swift + Objective-C(для унаследованного кода).
+Основные фреймворки - SnapKit, AFNetworking, ReactiveCocoa, IGList, SimpleKeychain, Crashlytics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>МФК Вэббанкир</title>
+      <link>https://infoweb77.github.io/posts/webb/</link>
+      <pubDate>Mon, 30 Sep 2019 17:10:36 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/webb/</guid>
+      <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
+&lt;h4 id=&#34;октябрь-2018--сентябрь-2019&#34;&gt;Октябрь 2018 — Сентябрь 2019.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.webbankir.com&#34;&gt;www.webbankir.com&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;обязанности-дальнейшее-развитие-приложения-webbankircom&#34;&gt;Обязанности: Дальнейшее развитие приложения webbankir.com.&lt;/h3&gt;
+&lt;p&gt;Разработка нового функционала + поиск и апробация новых библиотек в рамках этих задач.
+Исправление багов, рефакторинг унаследованного кода + закрытие &amp;ldquo;технического долга&amp;rdquo;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(c февраля 2019 г.) Релиз-менеджер приложения: проверка перед публикацией, финальная
+правка найденых багов, сбор маркетинговых материалов, отправка на review и работа с
+review-командой, выпуск приложения. Выпуск hot-fix&amp;rsquo;ов по необходимости.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Выработка предложений по дальнейшему развитию архитектуры и функционала, участие в
+обсуждении дизайна приложения.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Фриланс</title>
+      <link>https://infoweb77.github.io/posts/freelance/</link>
+      <pubDate>Wed, 31 Oct 2018 17:49:51 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/freelance/</guid>
+      <description>&lt;h2 id=&#34;ios-разработчик&#34;&gt;iOS-разработчик.&lt;/h2&gt;
+&lt;h4 id=&#34;декабрь-2017--октябрь-2018&#34;&gt;Декабрь 2017 — Октябрь 2018.&lt;/h4&gt;
+&lt;h3 id=&#34;сотрудничество-с-компанией-лаборатория-нтр&#34;&gt;Сотрудничество с компанией &amp;ldquo;Лаборатория НТР&amp;rdquo;.&lt;/h3&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.ntrlab.ru&#34;&gt;www.ntrlab.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Работа над транспортным приложением &amp;ldquo;Мосгортранс&amp;rdquo; (отображение движения наземного
+городского транспорта, графики движения, время приезда нужного ТС на остановку и
+предполагаемое время прибытия на место назначения, построение маршрутов, создание
+напоминаний и т.п.):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;адаптация приложения для слабовидящих - технологии Dynamic Fonts и VoiceOver;&lt;/li&gt;
+&lt;li&gt;мультиязычность - в настоящее время интерфейс поддерживает 6 языков;&lt;/li&gt;
+&lt;li&gt;разработка нового функционала, исправление багов и рефакторинг унаследованного кода.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;приложение-мосгортранс&#34;&gt;Приложение &amp;ldquo;Мосгортранс&amp;rdquo;.&lt;/h3&gt;
+&lt;p&gt;Тарифный калькулятор, мультиязычность, поиск и построение мультимодальных маршрутов, расписание на остановке, напоминания и т.п.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Фриланс</title>
+      <link>https://infoweb77.github.io/posts/freelance_2/</link>
+      <pubDate>Wed, 24 May 2017 17:49:51 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/freelance_2/</guid>
+      <description>&lt;h2 id=&#34;ios-разработчик&#34;&gt;iOS-разработчик.&lt;/h2&gt;
+&lt;h4 id=&#34;март-2016--май-2017&#34;&gt;Март 2016 — Май 2017.&lt;/h4&gt;
+&lt;h3 id=&#34;сотрудничество-с-компанией-мой-город&#34;&gt;Сотрудничество с компанией &amp;ldquo;Мой город&amp;rdquo;.&lt;/h3&gt;
+&lt;h3 id=&#34;общегородское-мобильное-приложение&#34;&gt;Общегородское мобильное приложение.&lt;/h3&gt;
+&lt;p&gt;Как пример - приложение Мой Зеленоград (AppStore Россия).&lt;/p&gt;
+&lt;p&gt;Итоги: разработан функционал городской доски обсуждений. Возможность создавать темы зарегистрированным пользователям, отвечать в темах/комментировать, присваивать рейтинг, пересылать другим пользователям в сторонние приложения. Написан модуль аналитики для работы с Google Analytics, проведен анализ и оптимизация процесса сборки приложений, в результате чего значительно снижен вес сборок, ускорена первоначальная загрузка и старт приложений.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обучение</title>
+      <link>https://infoweb77.github.io/posts/education_1/</link>
+      <pubDate>Sat, 27 Feb 2016 18:25:21 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/education_1/</guid>
+      <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
+&lt;p&gt;В рамках процесса обучения, реализовал несколько десятков учебных
+приложений по различным темам/аспектам технологий Apple (включая такие темы, как
+CoreData, MapKit, PassKit, TextKit, GCD, Multitasking API и др.), а также несколько игр для iOS.&lt;/p&gt;
+&lt;h3 id=&#34;форум-игры-timezero&#34;&gt;Форум игры Timezero.&lt;/h3&gt;
+&lt;p&gt;В 2013 году разработал нативное iOS-приложение для работы с форумом игры Timezero (не
+webview).&lt;/p&gt;
+&lt;p&gt;Цель - написание нативного приложения для работы с форумом игры (не webview).&lt;/p&gt;
+&lt;p&gt;Основной функционал - просмотр разделов и страниц, обновление статей, возможность авторизации, редатирование и публикация записей, создание новых тем. Реализовано сетевое взаимодействие, парсинг HTML, отображение контента и необходимой графики, кеширование и обновление страниц.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обучение</title>
+      <link>https://infoweb77.github.io/posts/education_2/</link>
+      <pubDate>Fri, 26 Feb 2016 18:25:21 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/education_2/</guid>
+      <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
+&lt;h3 id=&#34;приложение-googly-puff&#34;&gt;Приложение Googly Puff.&lt;/h3&gt;
+&lt;p&gt;Цель - изучение технологий Grand Central Dispatch: синхронные/асинхронные функции, потоки, серийные/конкурентные очереди.&lt;/p&gt;
+&lt;p&gt;Приложение загружает фотографии из библиотеки/интернета, находит лица людей, используя Face Detection API фреймворка Сore Image и рисует им  googly eyes. Функции GCD используются для оптимизации работы приложения.&lt;/p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-10a8c14eb226e75d71ea5879b4a45317&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog1.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog1.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog1.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog2.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog2.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog2.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog3.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog3.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog3.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog4.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog4.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog4.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog5.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog5.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog5.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog6.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/apps/good/goog6.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/apps\/good\/goog6.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+
+&lt;/div&gt;
+
+
+&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34; style=&#34;display:none;&#34;&gt;
+  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
+  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
+  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
+  
+  &lt;div class=&#34;lightbox-container&#34;&gt;
+    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = &#39;10a8c14eb226e75d71ea5879b4a45317&#39;;
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.add(&#39;show&#39;);
+  modal.style.display = &#39;flex !important&#39;;
+  document.body.style.overflow = &#39;hidden&#39;;
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.remove(&#39;show&#39;);
+  modal.style.display = &#39;none !important&#39;;
+  document.body.style.overflow = &#39;auto&#39;;
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById(&#39;lightbox-img&#39;);
+  const counter = document.getElementById(&#39;lightbox-counter&#39;);
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener(&#39;keydown&#39;, function(e) {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal.classList.contains(&#39;show&#39;)) {
+    if (e.key === &#39;Escape&#39;) closeLightbox();
+    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
+    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal) {
+    modal.addEventListener(&#39;click&#39;, function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+&lt;p&gt;Язык - Objective-C. Основные фреймворки: Core Graphics, Core Image, QuartzCore, UIKit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обучение</title>
+      <link>https://infoweb77.github.io/posts/education_3/</link>
+      <pubDate>Thu, 25 Feb 2016 18:25:21 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/education_3/</guid>
+      <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
+&lt;h2 id=&#34;ios-игры&#34;&gt;iOS-игры.&lt;/h2&gt;
+&lt;h3 id=&#34;star-combat&#34;&gt;Star Combat&lt;/h3&gt;
+&lt;p&gt;Цель - изучение программирования игр для iOS на основе фреймворка SpriteKit.&lt;/p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-c80f3a623b09afc4c985b5bccb620a68&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star1.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star1.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star1.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star2.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star2.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star2.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star3.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star3.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star3.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star4.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star4.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star4.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star5.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star5.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star5.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star6.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/games/star/star6.png&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/games\/star\/star6.png&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+
+&lt;/div&gt;
+
+
+&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34; style=&#34;display:none;&#34;&gt;
+  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
+  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
+  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
+  
+  &lt;div class=&#34;lightbox-container&#34;&gt;
+    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = &#39;c80f3a623b09afc4c985b5bccb620a68&#39;;
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.add(&#39;show&#39;);
+  modal.style.display = &#39;flex !important&#39;;
+  document.body.style.overflow = &#39;hidden&#39;;
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.remove(&#39;show&#39;);
+  modal.style.display = &#39;none !important&#39;;
+  document.body.style.overflow = &#39;auto&#39;;
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById(&#39;lightbox-img&#39;);
+  const counter = document.getElementById(&#39;lightbox-counter&#39;);
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener(&#39;keydown&#39;, function(e) {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal.classList.contains(&#39;show&#39;)) {
+    if (e.key === &#39;Escape&#39;) closeLightbox();
+    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
+    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal) {
+    modal.addEventListener(&#39;click&#39;, function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+&lt;p&gt;Язык - Objective-C. Основные фреймворки: SpriteKit, Core Graphics, Core Motion, QuartzCore, AVFoundation, UIKit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Программист ActionScript</title>
+      <link>https://infoweb77.github.io/posts/as/</link>
+      <pubDate>Thu, 25 Feb 2016 11:19:27 +0300</pubDate>
+      <guid>https://infoweb77.github.io/posts/as/</guid>
+      <description>&lt;h2 id=&#34;mailrugames&#34;&gt;Mail.Ru.Games&lt;/h2&gt;
+&lt;h4 id=&#34;март-2010--февраль-2016&#34;&gt;Март 2010 — Февраль 2016.&lt;/h4&gt;
+&lt;h3 id=&#34;ведущий-программист-проект-timezero&#34;&gt;Ведущий программист, проект Timezero.&lt;/h3&gt;
+&lt;p&gt;Основные обязанности:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;разработка нового функционала для игры;&lt;/li&gt;
+&lt;li&gt;редизайн старых элементов интерфейса в связи с переходом на новую модель данных;&lt;/li&gt;
+&lt;li&gt;оптимизация и рефакторинг кода;&lt;/li&gt;
+&lt;li&gt;написание технической документации.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Итоги:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;три больших раздела нового функционала, введенного в игру: группы, баттлграунды (квесты для игроков, требующие прохождения группой) и крафт (возможность создания новых вещей с помощью расходных материалов по рецептам);&lt;/li&gt;
+&lt;li&gt;переписаны или написаны заново более 50 окон интерфейса;&lt;/li&gt;
+&lt;li&gt;внесены сотни исправлений и улучшений в существующий код;&lt;/li&gt;
+&lt;li&gt;все вводимые в игру улучшения позволяли проекту стабильно выполнять поставленные финансовые показатели.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-fdbe8ab97f94e68559df9c6d3cdcc0b7&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz1.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz1.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz1.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz2.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz2.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz2.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz3.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz3.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz3.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz4.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz4.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz4.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz5.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz5.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz5.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz6.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz6.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz6.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;6&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz7.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz7.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  6 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz7.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz7.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;7&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz8.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz8.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  7 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz8.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz8.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;8&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz9.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;https://infoweb77.github.io/images/as/tz9.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  8 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz9.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/images\/as\/tz9.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+
+&lt;/div&gt;
+
+
+&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34; style=&#34;display:none;&#34;&gt;
+  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
+  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
+  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
+  
+  &lt;div class=&#34;lightbox-container&#34;&gt;
+    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none !important;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex !important;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 75vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.8);
+  margin-top: 16px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 6px 16px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.galleryData = window.galleryData || {};
+
+
+const galleryId = &#39;fdbe8ab97f94e68559df9c6d3cdcc0b7&#39;;
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.add(&#39;show&#39;);
+  modal.style.display = &#39;flex !important&#39;;
+  document.body.style.overflow = &#39;hidden&#39;;
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.remove(&#39;show&#39;);
+  modal.style.display = &#39;none !important&#39;;
+  document.body.style.overflow = &#39;auto&#39;;
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById(&#39;lightbox-img&#39;);
+  const counter = document.getElementById(&#39;lightbox-counter&#39;);
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener(&#39;keydown&#39;, function(e) {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal.classList.contains(&#39;show&#39;)) {
+    if (e.key === &#39;Escape&#39;) closeLightbox();
+    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
+    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal) {
+    modal.addEventListener(&#39;click&#39;, function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+&lt;p&gt;Языки: ActionScript 2, JavaScript. Фреймворк: фирменный, собственной разработки.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

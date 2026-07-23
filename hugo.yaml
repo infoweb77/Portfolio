@@ -1,0 +1,38 @@
+baseURL: "https://infoweb77.github.io/"
+locale: ru-ru
+title: Александр Шубин. Портфолио.  
+copyright: "© Александр Шубин"   
+theme: ["PaperMod"]
+
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 1
+  - name: Резюме
+    pageRef: /CV
+    weight: 2
+
+pagination:
+  disableAliases: false
+  pagerSize: 4
+
+params:
+  homeInfoParams:
+    Title: "iOS-разработчик"
+    Content: |
+      Всем добрый день. Меня зовут Александр Шубин. Я рад приветствовать Вас на страницах своего портфолио.
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/infoweb77"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+caches:
+  images:
+    dir: :cacheDir/images
