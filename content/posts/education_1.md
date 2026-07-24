@@ -42,12 +42,12 @@ webview).
 Приложение с помощью Flickr API ищет по запросу последние загруженные фотографии на серверах Flickr, скачивает их и отображает с помощью UICollectionView. Реализованы 4 кастомные раскладки UICollectionView.
 
 {{< gallery layout="grid" id="gallery23" >}}
-  {{< figure src="images/apps/flikr1.png" >}}
-  {{< figure src="images/apps/flikr2.png" >}}
-  {{< figure src="images/apps/flikr3.png" >}}
-  {{< figure src="images/apps/flikr4.png" >}}
-  {{< figure src="images/apps/flikr5.png" >}}
-  {{< figure src="images/apps/flikr6.png" >}}
+  {{< figure src="images/apps/flikr/flikr1.png" >}}
+  {{< figure src="images/apps/flikr/flikr2.png" >}}
+  {{< figure src="images/apps/flikr/flikr3.png" >}}
+  {{< figure src="images/apps/flikr/flikr4.png" >}}
+  {{< figure src="images/apps/flikr/flikr5.png" >}}
+  {{< figure src="images/apps/flikr/flikr6.png" >}}
 {{< /gallery >}}
 
 Язык - Objective-C. Основные фрэймворки: Core Graphics, QuartzCore, UIKit, MessageUI. 
