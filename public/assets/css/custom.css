@@ -1,0 +1,123 @@
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ ===== */
+
+/* Планшеты и телефоны (ширина ≤ 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 16px !important;
+    }
+
+    /* Заголовок */
+    .header h1, 
+    h1.site-title {
+        font-size: 1.8rem !important;
+    }
+
+    .header p,
+    .site-description {
+        font-size: 1rem !important;
+    }
+
+    /* Карточки проектов */
+    .project-card,
+    .portfolio-item,
+    .gallery-item {
+        padding: 16px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .project-card h3,
+    .portfolio-item h3 {
+        font-size: 1.2rem !important;
+    }
+
+    /* Теги / технологии */
+    .tags,
+    .badges,
+    .tech-list {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 6px !important;
+        justify-content: center !important;
+    }
+
+    .tag,
+    .badge,
+    .tech-item {
+        font-size: 0.75rem !important;
+        padding: 4px 12px !important;
+    }
+
+    /* Ссылки и кнопки — увеличиваем тап-область */
+    a,
+    button,
+    .btn,
+    .link {
+        display: inline-block !important;
+        min-height: 44px !important;
+        min-width: 44px !important;
+        padding: 10px 16px !important;
+        font-size: 1rem !important;
+    }
+
+    /* Галерея изображений */
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) !important;
+        gap: 10px !important;
+    }
+
+    .gallery img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Видео-проигрыватель */
+    .video-wrapper,
+    .video-container {
+        width: 100% !important;
+        aspect-ratio: 16/9 !important;
+    }
+
+    .video-wrapper iframe,
+    .video-container video {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    /* Футер / контакты */
+    .footer,
+    .contacts {
+        padding: 20px 0 10px !important;
+        text-align: center !important;
+    }
+
+    .footer a,
+    .contacts a {
+        display: inline-block !important;
+        margin: 4px 8px !important;
+        padding: 8px 0 !important;
+        min-height: 44px !important;
+        min-width: 44px !important;
+    }
+}
+
+/* Очень маленькие экраны (≤ 400px) */
+@media (max-width: 400px) {
+    .header h1,
+    h1.site-title {
+        font-size: 1.5rem !important;
+    }
+
+    .project-card,
+    .portfolio-item {
+        padding: 12px !important;
+    }
+
+    .project-card .desc,
+    .portfolio-item .description {
+        font-size: 0.9rem !important;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr !important;
+    }
+}

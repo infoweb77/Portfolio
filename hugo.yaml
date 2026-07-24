@@ -23,6 +23,9 @@ params:
     Content: |
       Всем добрый день. Меня зовут Александр Шубин. Я рад приветствовать Вас на страницах своего портфолио.
 
+  custom_css:
+    - css/custom.css
+
   socialIcons:
     - name: github
       title: View Source on Github
