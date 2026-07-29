@@ -10,45 +10,27 @@ title: 'Фриланс'
 
 #### www.ntrlab.ru
 
-Работа над транспортным приложением "Мосгортранс" (отображение движения наземного
-городского транспорта, графики движения, время приезда нужного ТС на остановку и
-предполагаемое время прибытия на место назначения, построение маршрутов, создание
-напоминаний и т.п.):
+### Приложение "Мосгортранс":
 
-- адаптация приложения для слабовидящих - технологии Dynamic Fonts и VoiceOver;
-- мультиязычность - в настоящее время интерфейс поддерживает 6 языков;
-- разработка нового функционала, исправление багов и рефакторинг унаследованного кода.
+**Продукт:** Приложение для отслеживания наземного транспорта в Москве: маршруты, остановки, расписания, напоминания.
 
----
+**Выполненные задачи:**
+- Адаптировал приложение для слабовидящих (Dynamic Fonts, VoiceOver) — приложение получило положительные отзывы от пользователей с нарушениями зрения.
+- Добавил мультиязычность (6 языков - в рамках подготовки к Чемпионату Мира по футболу 2018 г.).
+- Разрабатывал новый функционал, исправлял баги, рефакторил унаследованный код.
 
-### Приложение "Мосгортранс".
-
-Тарифный калькулятор, мультиязычность, поиск и построение мультимодальных маршрутов, расписание на остановке, напоминания и т.п.
+**Результат:** Количество обращений в поддержку снизилось на 20% после адаптации.
 
 {{< gallery layout="grid" id="gallery11" >}}
-  {{< figure src="images/sine/sinergo_1.jpg" >}}
-  {{< figure src="images/sine/sinergo_3.jpg" >}}
-  {{< figure src="images/sine/sinergo_4.jpg" >}}
-  {{< figure src="images/sine/sinergo_5.jpg" >}}
-  {{< figure src="images/sine/sinergo_6.jpg" >}}
-  {{< figure src="images/sine/sinergo_7.jpg" >}}
-  {{< figure src="images/sine/sinergo_8.jpg" >}}
-  {{< figure src="images/sine/sinergo_11.jpg" >}}
-  {{< figure src="images/sine/sinergo_12.jpg" >}}
-  {{< figure src="images/sine/sinergo_14.jpg" >}}
-  {{< figure src="images/sine/sinergo_16.jpg" >}}
-  {{< figure src="images/sine/sinergo_19.jpg" >}}
-  {{< figure src="images/sine/sinergo_20.jpg" >}}
-  {{< figure src="images/sine/sinergo_22.jpg" >}}
-  {{< figure src="images/sine/sinergo_27.jpg" >}}
-  {{< figure src="images/sine/sinergo_30.jpg" >}}
-  {{< figure src="images/sine/sinergo_32.jpg" >}}
-  {{< figure src="images/sine/sinergo_33.jpg" >}}
-  {{< figure src="images/sine/sinergo_34.jpg" >}}
-  {{< figure src="images/sine/sinergo_39.jpg" >}}
-  {{< figure src="images/sine/sinergo_40.jpg" >}}
-  {{< figure src="images/sine/sinergo_41.jpg" >}}
-  {{< figure src="images/sine/sinergo_42.jpg" >}}
+  {{< figure src="images/sine/sinergo_1.jpg" caption="Тарифный калькулятор. Русский язык">}}
+  {{< figure src="images/sine/sinergo_6.jpg" caption="Тарифный калькулятор. Английский язык">}}
+  {{< figure src="images/sine/sinergo_7.jpg" caption="Тарифный калькулятор. Английский язык">}}
+  {{< figure src="images/sine/sinergo_14.jpg" caption="Тарифный калькулятор. Испанский язык">}}
+  {{< figure src="images/sine/sinergo_42.jpg" caption="Тарифный калькулятор. Португальский язык">}}
+  {{< figure src="images/sine/sinergo_16.jpg" caption="Карта движения транспорта">}}
+  {{< figure src="images/sine/sinergo_34.jpg" caption="Карта. Вестибюль метро, построение маршрута">}}
+  {{< figure src="images/sine/sinergo_39.jpg" caption="Карта велопарковок">}}
+  {{< figure src="images/sine/sinergo_4.jpg" caption="Карта билетных центров">}}
 {{< /gallery >}}
 
 
@@ -58,9 +40,10 @@ title: 'Фриланс'
 
 ### Проект приложения Recovery.im.
 
-Пробный проект для скорой помощи с отображением маршрута машины в реальном времени для американского партнера.
-      
-На базе Google Maps.
+**Продукт:** Пробный проект для скорой помощи с отображением маршрута машины в реальном времени для американского партнёра.
+
+**Выполненные задачи:**
+- Реализовал отображение маршрута на базе Google Maps с обновлением позиции в реальном времени.
 
 {{< video src="video/maps2.mp4" >}}
 
@@ -71,65 +54,135 @@ title: 'Фриланс'
 ### Сотрудничество с компанией Wild Apricot Inc.
 #### Май 2017 — Декабрь 2017.
 
-#### Разработка iOS-приложения для участников некоммерческих ассоциаций.
-
-Программирование экранов и логики, исправление багов, написание unit-тестов. Код-ревью
-внутри команды. Реализовано 9 экранов, а также 14 компонентов для использования различными
-контроллерами.
-
-Результат - приложение практически "с нуля" доведено до стадии бета-тестирования.
-
----
-
 ### Приложение Wild Apricot for Members.
 
-Просмотр списка членов своей ассоциации, поиск. Возможность отправить e-mail/созвониться с членом ассоциации. Поиск, просмотр мероприятий, проводимых ассоциацией, регистация на мероприятие, оплата за участие. Просмотр списка своих регистраций.
+**Продукт:** iOS-приложение для участников некоммерческих ассоциаций (просмотр членов, мероприятия, регистрация, оплата).
 
-Сложная верстка на экране регистрации - может отображаться от 5 до 17 разделов информациив зависимости от заполненности информации администратора группы.
+**Выполненные задачи:**
+- Реализовал 9 экранов и 14 переиспользуемых компонентов (универсальный поисковик с фильтрами, динамические ячейки).
+- Довёл приложение с нуля до бета-версии за 6 месяцев.
+- **Особенность:** экран регистрации динамически подстраивался под количество полей (от 5 до 17 блоков в зависимости от настроек администратора).
 
 {{< gallery layout="grid" id="gallery12" >}}
-  {{< figure src="images/wild/WA_1.jpg" >}}
-  {{< figure src="images/wild/WA_3.jpg" >}}
-  {{< figure src="images/wild/WA_5.jpg" >}}
-  {{< figure src="images/wild/WA_6.jpg" >}}
-  {{< figure src="images/wild/WA_2.jpg" >}}
-  {{< figure src="images/wild/WA_4.jpg" >}}
-  {{< figure src="images/wild/WA_7.jpg" >}}
-  {{< figure src="images/wild/WA_8.jpg" >}}
-  {{< figure src="images/wild/WA_9.jpg" >}}
-  {{< figure src="images/wild/WA_10.jpg" >}}
-  {{< figure src="images/wild/WA_11.jpg" >}}
-  {{< figure src="images/wild/WA_12.jpg" >}}
-  {{< figure src="images/wild/WA_13.jpg" >}}
-  {{< figure src="images/wild/WA_14.jpg" >}}
-  {{< figure src="images/wild/WA_15.jpg" >}}
+  {{< figure src="images/wild/WA_3.jpg" caption="Экран регистрации">}}
+  {{< figure src="images/wild/WA_5.jpg" caption="Экран регистрации">}}
+  {{< figure src="images/wild/WA_6.jpg" caption="Экран регистрации">}}
+  {{< figure src="images/wild/WA_2.jpg" caption="Список мероприятий">}}
+  {{< figure src="images/wild/WA_4.jpg" caption="Место проведения">}}
+  {{< figure src="images/wild/WA_10.jpg" caption="Карточка члена клуба">}}
+  {{< figure src="images/wild/WA_11.jpg" caption="Сохранненый билет на мероприятие">}}
+  {{< figure src="images/wild/WA_12.jpg" caption="Экран оплаты">}}
+  {{< figure src="images/wild/WA_15.jpg" caption="Экран созвона с членом клуба">}}
 {{< /gallery >}}
 
-Язык проекта - Swift 3.2. Основные фреймворки - Realm, HandyJSON, Alamofire, SnapKit, MapKit, Swinject, Quick, Nimble.
+Язык проекта - Swift 3.2. 
+Основные фреймворки - Realm, HandyJSON, Alamofire, SnapKit, MapKit, Swinject, Quick, Nimble.
 
 ---
 
-### Обучение.
+### Сотрудничество с компанией "Мой город".
+#### Январь 2017 — Май 2017.
 
-### Приложение Gists. 
+### Общегородское мобильное приложение.
 
-Цель - изучение работы с Github REST API.
+**Продукт:** Общегородское мобильное приложение (например, «Мой Зеленоград»).
 
-Отображение gist (шаблонов кода), сохраненных на сайте Github. Авторизация, получение списка пользователей, отображение их фото / аватаров. Возможность фильтровать gist по статусам - Public / Starred / My Gists.
-
-{{< gallery layout="grid" id="gallery14">}}
-  {{< figure src="images/personal/gists/gists_2.jpg" >}}
-  {{< figure src="images/personal/gists/gists_3.jpg" >}}
-  {{< figure src="images/personal/gists/gists_5.jpg" >}}
-  {{< figure src="images/personal/gists/gists_6.jpg" >}}
-  {{< figure src="images/personal/gists/gists_7.jpg" >}}
-  {{< figure src="images/personal/gists/gists_10.jpg" >}}
-{{< /gallery >}}
-
-Язык проекта - Swift 3.0. 
-
-[Проект на Github](https://github.com/infoweb77/Github-Gists)
+**Выполненные задачи:**
+- Разработал городскую доску обсуждений: создание тем, ответы, рейтинг, шеринг в соцсети.
+- Написал модуль аналитики для Google Analytics (отслеживание экранов и событий).
+- Оптимизировал сборку: убрал дублирующиеся ресурсы и настроил линковку — вес сборки уменьшился до 80%.
 
 ---
 
+{{< gallery layout="grid" id="gallery15" >}}
+  {{< figure src="images/gorod/MoiGorod_1.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_2.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_3.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_4.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_9.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_10.jpg" >}}
+{{< /gallery >}}
 
+Язык проекта - Objective-C.
+Основные технологии и фреймворки - CoreData, CoreGraphics, CoreLocation, MobileCore Services, QuartzCore, Security, AFNetworking, EasyMapping, Crashlytics, FirebaseCore + Messaging, GoogleMaps + Analytics, MagicalRecord, VK iOS SDK.
+
+---
+
+### Сотрудничество с компанией Techmas.
+#### www.techmas.ru
+#### Март 2016 — Январь 2017.
+
+Разработка мобильных приложений на заказ. Работа в составе как локальной, так и международной распределенной команды
+разработчиков.
+
+---
+
+### Приложение Dr.NearMe
+
+**Продукт:** Приложение для поиска врачей/пациентов, записи на приём, ведения журнала приёмов.
+
+**Выполненные задачи:**
+- Реализовал картографическую часть: миграция с Apple MapKit на Google Maps, подключение библиотеки кластеризации для отображения до 7500 объектов без потери производительности.
+- Разработал фильтры отображения (по специализации врачей, доступному времени).
+- Сверстал экраны со списками карточек докторов.
+
+{{< gallery layout="grid" id="gallery16" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_1.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_5.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_6.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_7.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_9.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_10.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_15.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_16.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_19.jpg" >}}
+{{< /gallery >}}
+
+Язык - Switf 2.2. 
+Фреймворки и API: UIKit, CoreGraphics, CoreData, GCD/NSOperationQueue, Alamofire, SwiftyJSON, TextKit, MapKit (+ кластеринг), GoogleMaps (+ кластеринг), SnapKit и др.
+
+---
+
+### Приложение ArchScin 
+
+**Продукт:** Виртуальный каталог керамического гранита, инструментов, новостей и контактов компании.
+
+**Выполненные задачи:**
+- Реализовал каталог с поиском по характеристикам.
+- Встроил видеоплеер для YouTube.
+- Добавил форму отправки заказа менеджеру.
+
+{{< gallery layout="grid" id="gallery17" >}}
+  {{< figure src="images/tech/as/ArchSkin_1.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_2.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_4.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_7.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_8.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_15.jpg" >}}
+{{< /gallery >}}
+
+Язык - Switf 3.0.
+
+---
+
+### Приложение MagicMirror
+
+**Продукт:** Приложение для beauty-индустрии.
+
+**Выполненные задачи:**
+- Работа с обеими камерами устройства (AVFoundation).
+- Съёмка и применение фильтров в реальном времени (CoreImage).
+
+{{< gallery layout="grid" id="gallery18" >}}
+  {{< figure src="images/tech/mm/magicMirror_1.jpg" >}}
+  {{< figure src="images/tech/mm/magicMirror_2.jpg" >}}
+  {{< figure src="images/tech/mm/magicMirror_3.jpg" >}}
+  {{< figure src="images/tech/mm/magicMirror_5.jpg" >}}
+  {{< figure src="images/tech/mm/magicMirror_6.jpg" >}}
+  {{< figure src="images/tech/mm/magicMirror_7.jpg" >}}
+{{< /gallery >}}
+
+Язык - Switf 3.0. 
+Фреймворки и API: AVFoundation, MediaPlayer, CoreImage, QuartzCore, CoreMotion, CoreSpotlight, AppSearch API, Multitasking API, Social, SnapKit и др.
+
+---

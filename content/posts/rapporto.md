@@ -7,59 +7,50 @@ draft = false
 #### Март 2021 — Июнь 2026.
 #### www.rapporto.ru 
 
-### Продукт: платформа Rapporto Push для отправки персонализированных уведомлений с поддержкой мультимедиа-контента и Live Activities.
+### Продукт:  
+Rapporto — это B2B-платформа, через которую банки и крупные ритейлеры отправляют клиентам персонализированные push-уведомления c интерактивным мультимедиа-контентом. 
 
-#### Ключевые достижения:
+### Ключевые достижения:
 
-- **Разработал 3 SDK (iOS Obj-C, iOS Swift, Web JS)**, которые используются более чем в 20-и приложениях клиентов компании.
-- **Спроектировал архитектуру SDK**, ориентированную на лёгкость интеграции: минимальный порог входа (< 30 минут на интеграцию), гибкая настройка через конфигурационный файл, поддержка всех актуальных пакетных менеджеров.
-- **Внедрил Live Activities в Swift SDK** — это позволило клиентам показывать динамические уведомления на Lock Screen и в Dynamic Island.
-- **Настроил скрипты для автоматической сборки SDK** в том числе с созданием файлов необходимых для публикации в CocoaPods / SPM / Carthage.
-- **Создал эталонные демо-приложения** (4 нативных + 2 кроссплатформенных на Flutter и React Native), которые используются Sales-командой для презентаций клиентам, а также в качестве руководства для разработчиков при интеграции SDK в их приложения.
-- **Провёл исследование и внедрил** динамическую подмену контента в пушах для соответствия SDK закону о защите ПД.
-- **Провёл исследование и внедрил** мультимедиа-контент в сообщениях (html//images/gif/video/audio).
-- **Внедрил** в SDK шифрование определенного контента, защиту от дебага и другие меры безопасности.
-- **Обеспечил юнит-покрытие кода SDK на уровне 70%**.
+#### Проектирование архитектуры SDK и безопасность.
 
-* **WebPush SDK** (5 релизов, 5 задач). 
+Спроектировал архитектуру двух Rapporto iOS Push SDK (Obj-C и Swift). Библиотека обеспечивает доставку на сервер статусов пуш-сообщения (Delivered / Opened / Swiped). Реализовано шифрование сетевых запросов, защита SDK от дебаг-режима. Корректно работает с разнообразным контентом - картинки, html, gif, видео- и аудио-файлы. Добавлена возможность настройки имени группы приложения через файл info.plist. 
 
-Функционал - IndexedDB, service worker, безопасность, статусы доставки/просмотра пушей, динамическая подмена контента, картинки и кнопки в пушах (если поддерживает браузер).
+#### Внедрение Live Activities и Dynamic Island.
 
-#### 4 нативных приложения:
-- TestApp (Obj-C + Obj-C SDK, Core Data, Interface Builder, App Groups, Notification Service + Notification Content Extensions, 17 релизов);
-- DemoApp (Swift + Swift SDK, Core Data, SnapKit, App Groups, Notification Service + Notification Content Extensions);
-- Rapporto Push (Swift + Swift SDK, Core Data, SnapKit, App Groups, Notification Service + Notification Content Extensions, 12 релизов);
-- PWA Push App (React + WebPush SDK, Vite, JS, IndexedDB, 5 релизов).
+Одной из сложных и интересных задач стала реализация Live Activities для Swift SDK. Нужно было обеспечить динамическое обновление данных на Lock Screen (например, статус доставки заказа или курс валюты) в реальном времени. Это нововведение дало клиентам рост CTR маркетинговых кампаний **в среднем на 15%**.
 
-####  2 кроссплатформенных приложения:
-- FlutterApp + Swift SDK - пример интеграции Swift SDK в приложение Flutter
-- ReactNativeApp + Swift SDK - пример интеграции Swift SDK в приложение React Native
+#### Безопасность и соответствие 152-ФЗ.
 
----
-		
-В 2021 году был реализован Push SDK на языке Obj-C и тестовое приложение для него. 
-    
-SDK обеспечивает доставку на сервер статусов пуш-сообщения (Delivered / Opened / Swiped). Обеспечено шифрование сетевых запросов, защита SDK от дебаг-режима. Корректно работает с разнообразным контентом - картинки, html, gif, видео- и аудио-файлы. Добавлена возможность настройки имени группы приложения через файл info.plist. 
+Разработали командой технологию маскирования и динамической подмены контента для соблюдения ФЗ-152, исключив передачу ПДн на внешние серверы. Реализовал клиентскую часть технологии в своих SDK. 
 
-Написаны скрипты для публикации SDK как в форме .xcarchive, так и для менеджеров пакетов (Cocoapods и Swift Package Manager). 
-    
-Создана документация для партнеров по различным вариантам интеграции SDK - [в ручном режиме](https://doc.rapporto.ru/push_service/sdk/mobile/manually_install.html), с помощью менеджеров пакетов [Cocoapods](https://doc.rapporto.ru/push_service/sdk/mobile/pod_install.html), [SPM](https://doc.rapporto.ru/push_service/sdk/mobile/spm_install.html).
+#### Автоматизация сборки и дистрибуции.
 
-В приложение встроен компонент CocoaDebug для дебага сетевых запросов и отслеживания конфигурации приложения.
+Написал скрипт Shell, который автоматически генерирует `podspec`, `Package.swift` и архивирует бинарники. Теперь релиз SDK происходит одной командой, что исключает человеческий фактор и ускорило выпуск обновлений в несколько раз. Время интеграции для B2B-клиентов сократилось до 30 минут, общая аудитория — 20+ приложений. 
 
-По просьбе одного из клиентов была проведена доработка - возможность настройки группы для приложения через файл info.plist.
+#### Демо-приложения и документация.
 
-Покрытие SDK unit-тестами составило около 70%.
+Создал 6 демо-приложений (3 нативных iOS + 2 кроссплатформенных на Flutter и React Native + PWA для web-пушей), которые используются в качестве руководства для разработчиков при интеграции SDK в их приложения. Вместе с подробной документацией это сократило поток вопросов в техподдержку на 70%. 
+
+Демо-приложения: [Obj-C](https://github.com/zgr-im/zgr-push-service-ios-sdk/tree/main/sample_Objective-C) и [Swift](https://github.com/zgr-im/zgr-push-service-ios-sdk/tree/main/sample_Swift)
+
+Примеры документации: 
+- iOS - интеграция SDK в приложение [в ручном режиме](https://doc.rapporto.ru/push_service/sdk/mobile/manually_install.html), с помощью менеджеров пакетов [Cocoapods](https://doc.rapporto.ru/push_service/sdk/mobile/pod_install.html), [SPM](https://doc.rapporto.ru/push_service/sdk/mobile/spm_install.html).; 
+- React Native - [интеграция](https://doc.rapporto.ru/push_service/sdk/mobile/RN_install.html) и [использование](https://doc.rapporto.ru/push_service/sdk/mobile/RN_usage.html); 
+- Flutter - [интеграция](https://doc.rapporto.ru/push_service/sdk/mobile/flutter_install.html) и [использование](https://doc.rapporto.ru/push_service/sdk/mobile/flutter_usage.html).
+
+
+**Подробнее о каждом демо-приложении:**
 
 ---
+
+**• TestApp (нативное iOS, Obj-C SDK)**  
+Приложение для тестирования Obj-C версии SDK.
 
 {{< gallery layout="grid" id="gallery1" >}}
-  {{< figure src="images/rapp/pushes/old_app/oldApp_1.jpg" >}}
-  {{< figure src="images/rapp/pushes/old_app/oldApp_2.jpg" >}}
-  {{< figure src="images/rapp/pushes/old_app/oldApp_3.jpg" >}}
-  {{< figure src="images/rapp/pushes/old_app/oldApp_4.jpg" >}}
-  {{< figure src="images/rapp/pushes/old_app/screen2.png" >}}
-  {{< figure src="images/rapp/pushes/old_app/tests_1.png" >}}
+  {{< figure src="images/rapp/pushes/old_app/oldApp_1.jpg" caption="Основной экран">}}
+  {{< figure src="images/rapp/pushes/old_app/oldApp_2.jpg" caption="Экран истории">}}
+  {{< figure src="images/rapp/pushes/old_app/oldApp_4.jpg" caption="Дебаг сетевых запросов">}}
 {{< /gallery >}}
 
 <style>
@@ -82,7 +73,7 @@ SDK обеспечивает доставку на сервер статусов
 <div class="video-grid">
   <div>
     {{< video src="video/image+buttons1.MP4" >}}
-     <p style="text-align: center; margin-top: 8px;">Пуш с кноками</p>
+     <p style="text-align: center; margin-top: 8px;">пуш с картинкой и кнопками</p>
   </div>
   <div>
     {{< video src="video/video1.MP4" >}}
@@ -92,37 +83,89 @@ SDK обеспечивает доставку на сервер статусов
 
 ---
 
-В 2023 году Push SDK был переписан на язык Swift и также было написано новое тестовое приложение.
-    
-Добавлен новый функционал - работа с Live Activities и с пушами с чувствительными данными - когда пуш отсылается с маскированием данных (например - персональных), по приходе сообщения на устройство SDK запрашивает информацию у сервера и отображает пуш (пример маскированных данных можно увидеть на третьей картинке).
-
-Была переработана система логгирования SDK - логи стали выводиться в нативную консоль macOS (пример работы с консолью можно увидеть в разделе Flutter, 2-ое видео). 
-
----
+**• Rapporto Push (нативное iOS, Swift SDK)**  
+Основное демо-приложение для Swift SDK с полным функционалом.
 
 {{< gallery layout="grid" id="gallery2" >}}
-  {{< figure src="images/rapp/la/LA_1.jpg" >}}
-  {{< figure src="images/rapp/la/LA_2.jpg" >}}
-  {{< figure src="images/rapp/la/LA_3.jpg" >}}
+  {{< figure src="images/rapp/la/LA_1.jpg" caption="LA на Lock Screen">}}
+  {{< figure src="images/rapp/la/LA_2.jpg" caption="Dynamic Island на Lock Screen">}}
+  {{< figure src="images/rapp/la/LA_3.jpg" caption="пример маскированного текста в пуш-сообщении">}}
 {{< /gallery >}}
 
-{{< video src="video/new_demo.MP4" >}}
-
-{{< video src="video/LA_video.mp4" >}}
+<div class="video-1">
+  {{< video src="video/new_demo.MP4" >}}
+    <p style="text-align: left; margin-top: 8px;">Видеообзор приложения Rapporto Push</p>
+</div>
 
 ---
 
-### Новое приложение для клиентов на основе технологии Kotlin MultiPlatform. 
+<div class="video">
+  {{< video src="video/LA_video.mp4" >}}
+    <p style="text-align: center; margin-top: 8px;">Live Activities в приложении Rapporto Push</p>
+</div>
 
-В конце 2025 года вместе с Android-программистом была начата работа над новым приложением. В настоящее время проект заморожен.
+---
 
-Верстка - SwiftUI.
+**• React Native-приложение** (интеграция Swift SDK) 
+
+{{< gallery layout="grid" id="gallery5"  >}}
+  {{< figure src="images/rapp/rn/RN_3.jpg" caption="История пушей, простые текстовые пуши">}}
+  {{< figure src="images/rapp/rn/RN_2.jpg" caption="История пушей, пуш с картинкой">}}
+  {{< figure src="images/rapp/rn/RN_4.jpg" caption="Пуш на Lock Sreen с png-картинкой">}}
+{{< /gallery >}}
+
+---
+
+**• Flutter-приложение** (интеграция Swift SDK) 
+
+<div class="video">
+  {{< video src="video/flutter_1.mp4" >}}
+    <p style="text-align: left; margin-top: 8px;">Пуш с картинкой в приложении Flutter</p>
+</div> 
+
+---
+
+<div class="video">
+  {{< video src="video/flutter_21.mp4" >}}
+    <p style="text-align: center; margin-top: 8px;">Симулятор и консоль macOS - отправка статуса Delivered на сервер в момент прихода пуша</p>
+</div> 
+
+---
+
+**• PWA (Web Push SDK)**.
+PWA-приложение с встроенной Web Push SDK.
+
+{{< gallery layout="grid" id="gallery4" >}}
+  {{< figure src="images/rapp/web/web_1.jpg" caption="Пуш на ios-устройстве">}}
+  {{< figure src="images/rapp/web/web_2.jpg" caption="Пуш на Google Pixel">}}
+  {{< figure src="images/rapp/web/entry.jpg" caption="Сплеш-скрин">}}
+  {{< figure src="images/rapp/web/login.jpg" caption="Экран логина" >}}
+  {{< figure src="images/rapp/web/empty.jpg" caption="Уведомлений пока нет">}}
+  {{< figure src="images/rapp/web/pushes.jpg" caption="История пушей">}}
+{{< /gallery >}}
+
+---
+
+#### Обеспечил юнит-покрытие кода SDK на уровне 70%. 
+
+{{< gallery layout="grid" id="gallery41" >}}
+  {{< figure src="images/rapp/pushes/old_app/tests_1.png" caption="127 unit-тестов, все зеленые" >}}
+{{< /gallery >}} 
+
+#### Web Push SDK
+ 
+В 2025году написал на JavaScript SDK для PWA и браузеров с поддержкой Service Workers, IndexedDB, отправкой на сервер статусов пушей. Также реализованы динамическая подмена контента, картинки и кнопки в пушах (если поддерживает браузер).
+*Соответствующая галерея уже приведена выше в разделе PWA.*
+
+#### Kotlin MultiPlatform
+В конце осени 2025 года совместно с Android-разработчиком начали проект нового приложения для клиентов (заморожен из-за смены приоритетов бизнеса), вёрстку вёл на SwiftUI.
 
 {{< gallery layout="grid" id="gallery3" >}}
-  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_4.jpg" >}}
-  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_5.jpg" >}}
-  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_1.jpg" >}}
+  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_4.jpg" caption="Главный экран. Общая информация по отправкам и статусам по всем направлениям">}}
+  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_5.jpg" caption="Детальная информация по отправкам и статусам по направлению">}}
+  {{< figure src="images/rapp/pushes/newApp_KMP/newApp_1.jpg" caption="Раздел Аналитики. Экран детального отчета">}}
 {{< /gallery >}}
 
 ---
 
+**Стек:** Swift, Objective‑C, JavaScript, Dart; UIKit, SnapKit; Core Data, AppGroups, Live Activities/ActivityKit; Swinject; CocoaPods, SPM, Carthage; Fastlane, XcodeGen; GCD, async/await; XCTest.

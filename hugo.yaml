@@ -15,7 +15,7 @@ menus:
 
 pagination:
   disableAliases: false
-  pagerSize: 4
+  pagerSize: 3
 
 params:
   homeInfoParams:
