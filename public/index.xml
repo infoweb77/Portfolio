@@ -2,29 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Александр Шубин. Портфолио.</title>
-    <link>https://infoweb77.github.io/</link>
+    <link>http://localhost:1313/Portfolio/</link>
     <description>Recent content on Александр Шубин. Портфолио.</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <copyright>Александр Шубин</copyright>
     <lastBuildDate>Tue, 30 Jun 2026 07:07:07 +0100</lastBuildDate>
-    <atom:link href="https://infoweb77.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Раппорто</title>
-      <link>https://infoweb77.github.io/posts/rapporto/</link>
+      <link>http://localhost:1313/Portfolio/posts/rapporto/</link>
       <pubDate>Tue, 30 Jun 2026 07:07:07 +0100</pubDate>
-      <guid>https://infoweb77.github.io/posts/rapporto/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/rapporto/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;март-2021--июнь-2026&#34;&gt;Март 2021 — Июнь 2026.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;обязанности---разработка-и-поддержание-в-актуальном-виде-rapporto-ios-push-sdk-obj-c--и--swift-версии-а-также-web-push-sdk-javascript-для-встраивания-в-приложения-партнеров&#34;&gt;Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и  Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров.&lt;/h4&gt;
-&lt;p&gt;Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.&lt;/p&gt;</description>
+&lt;h3 id=&#34;продукт-платформа-rapporto-push-для-отправки-персонализированных-уведомлений-с-поддержкой-мультимедиа-контента-и-live-activities&#34;&gt;Продукт: платформа Rapporto Push для отправки персонализированных уведомлений с поддержкой мультимедиа-контента и Live Activities.&lt;/h3&gt;
+&lt;h4 id=&#34;ключевые-достижения&#34;&gt;Ключевые достижения:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Разработал 3 SDK (iOS Obj-C, iOS Swift, Web JS)&lt;/strong&gt;, которые используются более чем в 20-и приложениях клиентов компании.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Спроектировал архитектуру SDK&lt;/strong&gt;, ориентированную на лёгкость интеграции: минимальный порог входа (&amp;lt; 30 минут на интеграцию), гибкая настройка через конфигурационный файл, поддержка всех актуальных пакетных менеджеров.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Внедрил Live Activities в Swift SDK&lt;/strong&gt; — это позволило клиентам показывать динамические уведомления на Lock Screen и в Dynamic Island.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Настроил скрипты для автоматической сборки SDK&lt;/strong&gt; в том числе с созданием файлов необходимых для публикации в CocoaPods / SPM / Carthage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Создал эталонные демо-приложения&lt;/strong&gt; (4 нативных + 2 кроссплатформенных на Flutter и React Native), которые используются Sales-командой для презентаций клиентам, а также в качестве руководства для разработчиков при интеграции SDK в их приложения.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Провёл исследование и внедрил&lt;/strong&gt; динамическую подмену контента в пушах для соответствия SDK закону о защите ПД.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Провёл исследование и внедрил&lt;/strong&gt; мультимедиа-контент в сообщениях (html//images/gif/video/audio).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Внедрил&lt;/strong&gt; в SDK шифрование определенного контента, защиту от дебага и другие меры безопасности.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Обеспечил юнит-покрытие кода SDK на уровне 70%&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WebPush SDK&lt;/strong&gt; (5 релизов, 5 задач).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Функционал - IndexedDB, service worker, безопасность, статусы доставки/просмотра пушей, динамическая подмена контента, картинки и кнопки в пушах (если поддерживает браузер).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Раппорто</title>
-      <link>https://infoweb77.github.io/posts/rapporto_2/</link>
+      <link>http://localhost:1313/Portfolio/posts/rapporto_2/</link>
       <pubDate>Mon, 29 Jun 2026 07:07:07 +0100</pubDate>
-      <guid>https://infoweb77.github.io/posts/rapporto_2/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/rapporto_2/</guid>
       <description>&lt;h2 id=&#34;кроссплатформенные-решения&#34;&gt;Кроссплатформенные решения.&lt;/h2&gt;
 &lt;h4 id=&#34;март-2021--июнь-2026&#34;&gt;Март 2021 — Июнь 2026.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
@@ -44,9 +59,9 @@
     </item>
     <item>
       <title>Обучение</title>
-      <link>https://infoweb77.github.io/posts/education/</link>
+      <link>http://localhost:1313/Portfolio/posts/education/</link>
       <pubDate>Sun, 28 Jun 2026 07:07:07 +0100</pubDate>
-      <guid>https://infoweb77.github.io/posts/education/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/education/</guid>
       <description>&lt;h4 id=&#34;март-2021--настоящее-время&#34;&gt;Март 2021 — настоящее время.&lt;/h4&gt;
 &lt;h3 id=&#34;приложение-superstorage&#34;&gt;Приложение SuperStorage.&lt;/h3&gt;
 &lt;p&gt;Цель - изучение новой конкурентной модели Swift (async/await).&lt;/p&gt;
@@ -58,18 +73,18 @@
 
 &lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-5c9d32e4a330c70f1432621bfe9e21e3&#34;&gt;
   
-  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_1.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_1.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_1.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_1.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -77,7 +92,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_1.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_1.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -99,14 +114,14 @@
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_2.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_2.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_2.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_2.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -114,7 +129,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_2.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_2.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -136,14 +151,14 @@
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_3.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_3.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_3.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_3.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -151,7 +166,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_3.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_3.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -173,14 +188,14 @@
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_4.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_4.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_4.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_4.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -188,7 +203,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_4.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_4.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -210,14 +225,14 @@
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_5.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_5.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_5.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_5.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -225,7 +240,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_5.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_5.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -247,14 +262,14 @@
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/rapp/edu/storage/storage_6.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/rapp/edu/storage/storage_6.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_6.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_6.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/rapp/edu/storage/storage_6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/rapp/edu/storage/storage_6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -262,7 +277,7 @@
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/rapp\/edu\/storage\/storage_6.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/rapp\/edu\/storage\/storage_6.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -584,9 +599,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     <item>
       <title>Промсвязьбанк</title>
-      <link>https://infoweb77.github.io/posts/psb/</link>
+      <link>http://localhost:1313/Portfolio/posts/psb/</link>
       <pubDate>Sun, 28 Feb 2021 17:10:17 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/psb/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/psb/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;сентябрь-2019--февраль-2021&#34;&gt;Сентябрь 2019 — Февраль 2021.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.psbank.ru&#34;&gt;www.psbank.ru&lt;/a&gt;&lt;/h4&gt;
@@ -602,9 +617,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     <item>
       <title>МФК Вэббанкир</title>
-      <link>https://infoweb77.github.io/posts/webb/</link>
+      <link>http://localhost:1313/Portfolio/posts/webb/</link>
       <pubDate>Mon, 30 Sep 2019 17:10:36 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/webb/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/webb/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;октябрь-2018--сентябрь-2019&#34;&gt;Октябрь 2018 — Сентябрь 2019.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.webbankir.com&#34;&gt;www.webbankir.com&lt;/a&gt;&lt;/h4&gt;
@@ -621,9 +636,9 @@ review-командой, выпуск приложения. Выпуск hot-fix
     </item>
     <item>
       <title>Фриланс</title>
-      <link>https://infoweb77.github.io/posts/freelance/</link>
+      <link>http://localhost:1313/Portfolio/posts/freelance/</link>
       <pubDate>Wed, 31 Oct 2018 17:49:51 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/freelance/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/freelance/</guid>
       <description>&lt;h2 id=&#34;ios-разработчик&#34;&gt;iOS-разработчик.&lt;/h2&gt;
 &lt;h4 id=&#34;декабрь-2017--октябрь-2018&#34;&gt;Декабрь 2017 — Октябрь 2018.&lt;/h4&gt;
 &lt;h3 id=&#34;сотрудничество-с-компанией-лаборатория-нтр&#34;&gt;Сотрудничество с компанией &amp;ldquo;Лаборатория НТР&amp;rdquo;.&lt;/h3&gt;
@@ -643,9 +658,9 @@ review-командой, выпуск приложения. Выпуск hot-fix
     </item>
     <item>
       <title>Фриланс</title>
-      <link>https://infoweb77.github.io/posts/freelance_2/</link>
+      <link>http://localhost:1313/Portfolio/posts/freelance_2/</link>
       <pubDate>Wed, 24 May 2017 17:49:51 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/freelance_2/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/freelance_2/</guid>
       <description>&lt;h2 id=&#34;ios-разработчик&#34;&gt;iOS-разработчик.&lt;/h2&gt;
 &lt;h4 id=&#34;март-2016--май-2017&#34;&gt;Март 2016 — Май 2017.&lt;/h4&gt;
 &lt;h3 id=&#34;сотрудничество-с-компанией-мой-город&#34;&gt;Сотрудничество с компанией &amp;ldquo;Мой город&amp;rdquo;.&lt;/h3&gt;
@@ -655,9 +670,9 @@ review-командой, выпуск приложения. Выпуск hot-fix
     </item>
     <item>
       <title>Обучение</title>
-      <link>https://infoweb77.github.io/posts/education_1/</link>
+      <link>http://localhost:1313/Portfolio/posts/education_1/</link>
       <pubDate>Sat, 27 Feb 2016 18:25:21 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/education_1/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/education_1/</guid>
       <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
 &lt;p&gt;В рамках процесса обучения, реализовал несколько десятков учебных
 приложений по различным темам/аспектам технологий Apple (включая такие темы, как
@@ -670,9 +685,9 @@ webview).&lt;/p&gt;
     </item>
     <item>
       <title>Обучение</title>
-      <link>https://infoweb77.github.io/posts/education_2/</link>
+      <link>http://localhost:1313/Portfolio/posts/education_2/</link>
       <pubDate>Fri, 26 Feb 2016 18:25:21 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/education_2/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/education_2/</guid>
       <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
 &lt;h3 id=&#34;приложение-googly-puff&#34;&gt;Приложение Googly Puff.&lt;/h3&gt;
 &lt;p&gt;Цель - изучение технологий Grand Central Dispatch: синхронные/асинхронные функции, потоки, серийные/конкурентные очереди.&lt;/p&gt;
@@ -685,18 +700,18 @@ webview).&lt;/p&gt;
 
 &lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-10a8c14eb226e75d71ea5879b4a45317&#34;&gt;
   
-  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog1.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog1.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog1.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog1.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -704,7 +719,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog1.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog1.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -726,14 +741,14 @@ webview).&lt;/p&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog2.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog2.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog2.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog2.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -741,7 +756,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog2.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog2.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -763,14 +778,14 @@ webview).&lt;/p&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog3.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog3.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog3.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog3.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -778,7 +793,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog3.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog3.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -800,14 +815,14 @@ webview).&lt;/p&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog4.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog4.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog4.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog4.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -815,7 +830,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog4.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog4.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -837,14 +852,14 @@ webview).&lt;/p&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog5.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog5.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog5.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog5.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -852,7 +867,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog5.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog5.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -874,14 +889,14 @@ webview).&lt;/p&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/apps/good/goog6.jpg&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/good/goog6.jpg&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/apps/good/goog6.jpg&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/good/goog6.jpg&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/apps/good/goog6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/good/goog6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -889,7 +904,7 @@ webview).&lt;/p&gt;
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/apps\/good\/goog6.jpg&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/good\/goog6.jpg&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1211,9 +1226,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     <item>
       <title>Обучение</title>
-      <link>https://infoweb77.github.io/posts/education_3/</link>
+      <link>http://localhost:1313/Portfolio/posts/education_3/</link>
       <pubDate>Thu, 25 Feb 2016 18:25:21 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/education_3/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/education_3/</guid>
       <description>&lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
 &lt;h2 id=&#34;ios-игры&#34;&gt;iOS-игры.&lt;/h2&gt;
 &lt;h3 id=&#34;star-combat&#34;&gt;Star Combat&lt;/h3&gt;
@@ -1226,18 +1241,18 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-c80f3a623b09afc4c985b5bccb620a68&#34;&gt;
   
-  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star1.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star1.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star1.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star1.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1245,7 +1260,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star1.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star1.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1267,14 +1282,14 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star2.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star2.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star2.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star2.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1282,7 +1297,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star2.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star2.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1304,14 +1319,14 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star3.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star3.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star3.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star3.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star3.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1319,7 +1334,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star3.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star3.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1341,14 +1356,14 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star4.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star4.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star4.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star4.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1356,7 +1371,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star4.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star4.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1378,14 +1393,14 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star5.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star5.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star5.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star5.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star5.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1393,7 +1408,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star5.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star5.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1415,14 +1430,14 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/games/star/star6.png&#39;);&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/games/star/star6.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/games/star/star6.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/games/star/star6.png&#34; 
              alt=&#34;&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/games/star/star6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/games/star/star6.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
     &lt;/figure&gt;
   &lt;/div&gt;
   
@@ -1430,7 +1445,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;script&gt;
   (function() {
     const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/games\/star\/star6.png&#39;;
+    const src = &#39;\/Portfolio\/images\/games\/star\/star6.png&#39;;
     const caption = &#39;&#39;;
     
     window.galleryData = window.galleryData || {};
@@ -1751,675 +1766,10 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;Язык - Objective-C. Основные фреймворки: SpriteKit, Core Graphics, Core Motion, QuartzCore, AVFoundation, UIKit.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Программист ActionScript</title>
-      <link>https://infoweb77.github.io/posts/as/</link>
-      <pubDate>Thu, 25 Feb 2016 11:19:27 +0300</pubDate>
-      <guid>https://infoweb77.github.io/posts/as/</guid>
-      <description>&lt;h2 id=&#34;mailrugames&#34;&gt;Mail.Ru.Games&lt;/h2&gt;
-&lt;h4 id=&#34;март-2010--февраль-2016&#34;&gt;Март 2010 — Февраль 2016.&lt;/h4&gt;
-&lt;h3 id=&#34;ведущий-программист-проект-timezero&#34;&gt;Ведущий программист, проект Timezero.&lt;/h3&gt;
-&lt;p&gt;Основные обязанности:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;разработка нового функционала для игры;&lt;/li&gt;
-&lt;li&gt;редизайн старых элементов интерфейса в связи с переходом на новую модель данных;&lt;/li&gt;
-&lt;li&gt;оптимизация и рефакторинг кода;&lt;/li&gt;
-&lt;li&gt;написание технической документации.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Итоги:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;три больших раздела нового функционала, введенного в игру: группы, баттлграунды (квесты для игроков, требующие прохождения группой) и крафт (возможность создания новых вещей с помощью расходных материалов по рецептам);&lt;/li&gt;
-&lt;li&gt;переписаны или написаны заново более 50 окон интерфейса;&lt;/li&gt;
-&lt;li&gt;внесены сотни исправлений и улучшений в существующий код;&lt;/li&gt;
-&lt;li&gt;все вводимые в игру улучшения позволяли проекту стабильно выполнять поставленные финансовые показатели.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-fdbe8ab97f94e68559df9c6d3cdcc0b7&#34;&gt;
-  
-  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.github.io/css/hugo-easy-gallery.css /&gt;
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz1.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz1.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz1.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz2.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz2.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz2.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz3.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz3.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz3.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;3&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz4.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz4.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  3 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz4.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;4&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz5.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz5.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  4 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz5.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz5.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;5&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz6.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz6.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  5 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz6.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;6&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz7.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz7.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  6 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz7.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz7.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;7&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz8.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz8.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  7 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz8.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz8.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-  
-  
-  &lt;div class=&#34;gallery-item&#34; data-index=&#34;8&#34; data-gallery=&#34;gallery&#34;&gt;
-    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/as/tz9.jpg&#39;);&#34;&gt;
-        &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.github.io/images/as/tz9.jpg&#34; 
-             alt=&#34;&#34;
-             onclick=&#34;openLightbox(&#39;gallery&#39;,  8 )&#34;
-             loading=&#34;lazy&#34; /&gt;
-      &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.github.io/images/as/tz9.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  
-  
-  &lt;script&gt;
-  (function() {
-    const galleryId = &#39;gallery&#39;;
-    const src = &#39;\/images\/as\/tz9.jpg&#39;;
-    const caption = &#39;&#39;;
-    
-    window.galleryData = window.galleryData || {};
-    if (!window.galleryData[galleryId]) {
-      window.galleryData[galleryId] = [];
-    }
-    
-    
-    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
-    if (!exists) {
-      window.galleryData[galleryId].push({
-        src: src,
-        caption: caption
-      });
-    }
-  })();
-  &lt;/script&gt;
-
-&lt;/div&gt;
-
-
-&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34; style=&#34;display:none;&#34;&gt;
-  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
-  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
-  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
-  
-  &lt;div class=&#34;lightbox-container&#34;&gt;
-    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
-    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;style&gt;
- 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
-  padding: 16px 0;
-}
-
-.gallery-masonry {
-  column-count: 3;
-  column-gap: 16px;
-  padding: 16px 0;
-}
-
-.gallery-masonry .gallery-item {
-  break-inside: avoid;
-  margin-bottom: 16px;
-}
-
-.gallery-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px 0;
-}
-
-.gallery-flex .gallery-item {
-  flex: 1 1 200px;
-  max-width: 300px;
-}
-
-.gallery-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 16px 0;
-}
-
-.gallery-cards .gallery-item {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-
-.gallery-cards .gallery-item img {
-  height: 200px;
-}
-
- 
-.gallery-item {
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover {
-  transform: scale(1.03);
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover img {
-  transform: scale(1.05);
-}
-
- 
-.lightbox-modal {
-  display: none !important;
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.92);
-  align-items: center;
-  justify-content: center;
-}
-
-.lightbox-modal.show {
-  display: flex !important;
-}
-
-.lightbox-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 90%;
-}
-
-.lightbox-modal .close-btn {
-  position: fixed;
-  top: 20px;
-  right: 40px;
-  color: #fff;
-  font-size: 40px;
-  cursor: pointer;
-  z-index: 10000;
-  background: rgba(0,0,0,0.5);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: transform 0.3s ease;
-  border: none;
-}
-
-.lightbox-modal .close-btn:hover {
-  transform: rotate(90deg);
-  background: rgba(0,0,0,0.8);
-}
-
-.nav-btn {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 40px;
-  cursor: pointer;
-  z-index: 10000;
-  background: rgba(0,0,0,0.5);
-  border: none;
-  padding: 20px 15px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-.nav-btn:hover {
-  background: rgba(0,0,0,0.8);
-}
-
-.prev-btn {
-  left: 20px;
-}
-
-.next-btn {
-  right: 20px;
-}
-
-.lightbox-modal .lightbox-content {
-  max-width: 85vw;
-  max-height: 75vh;
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
-}
-
-.lightbox-counter {
-  color: rgba(255,255,255,0.8);
-  margin-top: 16px;
-  font-size: 1rem;
-  text-align: center;
-  padding: 6px 16px;
-  background: rgba(0,0,0,0.4);
-  border-radius: 20px;
-}
-
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
-  }
-  
-  .gallery-masonry {
-    column-count: 2;
-  }
-  
-  .gallery-item img {
-    height: 150px;
-  }
-  
-  .lightbox-modal .close-btn {
-    top: 15px;
-    right: 20px;
-    font-size: 30px;
-    width: 40px;
-    height: 40px;
-  }
-  
-  .nav-btn {
-    font-size: 30px;
-    padding: 12px 10px;
-  }
-  
-  .prev-btn {
-    left: 10px;
-  }
-  
-  .next-btn {
-    right: 10px;
-  }
-}
-&lt;/style&gt;
-
-&lt;script&gt;
-
-window.galleryData = window.galleryData || {};
-
-
-const galleryId = &#39;fdbe8ab97f94e68559df9c6d3cdcc0b7&#39;;
-
-let currentGalleryId = null;
-let currentIndex = 0;
-
-function openLightbox(galleryId, index) {
-  currentGalleryId = galleryId;
-  currentIndex = index;
-  
-  const modal = document.getElementById(&#39;lightbox-modal&#39;);
-  modal.classList.add(&#39;show&#39;);
-  modal.style.display = &#39;flex !important&#39;;
-  document.body.style.overflow = &#39;hidden&#39;;
-  
-  updateLightbox();
-}
-
-function closeLightbox() {
-  const modal = document.getElementById(&#39;lightbox-modal&#39;);
-  modal.classList.remove(&#39;show&#39;);
-  modal.style.display = &#39;none !important&#39;;
-  document.body.style.overflow = &#39;auto&#39;;
-  currentGalleryId = null;
-}
-
-function navigateLightbox(direction) {
-  if (!currentGalleryId) return;
-  
-  const images = window.galleryData[currentGalleryId];
-  if (!images || images.length === 0) return;
-  
-  currentIndex = (currentIndex + direction + images.length) % images.length;
-  updateLightbox();
-}
-
-function updateLightbox() {
-  if (!currentGalleryId) return;
-  
-  const images = window.galleryData[currentGalleryId];
-  if (!images || images.length === 0) return;
-  
-  const img = document.getElementById(&#39;lightbox-img&#39;);
-  const counter = document.getElementById(&#39;lightbox-counter&#39;);
-  const image = images[currentIndex];
-  
-  if (image) {
-    img.src = image.src;
-    counter.textContent = `${currentIndex + 1} / ${images.length}`;
-  }
-}
-
-
-document.addEventListener(&#39;keydown&#39;, function(e) {
-  const modal = document.getElementById(&#39;lightbox-modal&#39;);
-  if (modal.classList.contains(&#39;show&#39;)) {
-    if (e.key === &#39;Escape&#39;) closeLightbox();
-    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
-    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
-  }
-});
-
-
-document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
-  const modal = document.getElementById(&#39;lightbox-modal&#39;);
-  if (modal) {
-    modal.addEventListener(&#39;click&#39;, function(e) {
-      if (e.target === this) {
-        closeLightbox();
-      }
-    });
-  }
-});
-&lt;/script&gt;
-&lt;p&gt;Языки: ActionScript 2, JavaScript. Фреймворк: фирменный, собственной разработки.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Резюме</title>
-      <link>https://infoweb77.github.io/cv/</link>
+      <link>http://localhost:1313/Portfolio/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://infoweb77.github.io/cv/</guid>
+      <guid>http://localhost:1313/Portfolio/cv/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;резюме&#34; loading=&#34;lazy&#34; src=&#34;cv.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>

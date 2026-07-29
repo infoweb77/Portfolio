@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/Portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Раппорто | Александр Шубин. Портфолио.</title>
 <meta name="keywords" content="">
 <meta name="description" content="Старший iOS-программист.
 Март 2021 — Июнь 2026.
 www.rapporto.ru
-Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и  Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров.
-Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.">
+Продукт: платформа Rapporto Push для отправки персонализированных уведомлений с поддержкой мультимедиа-контента и Live Activities.
+Ключевые достижения:
+
+Разработал 3 SDK (iOS Obj-C, iOS Swift, Web JS), которые используются более чем в 20-и приложениях клиентов компании.
+Спроектировал архитектуру SDK, ориентированную на лёгкость интеграции: минимальный порог входа (&lt; 30 минут на интеграцию), гибкая настройка через конфигурационный файл, поддержка всех актуальных пакетных менеджеров.
+Внедрил Live Activities в Swift SDK — это позволило клиентам показывать динамические уведомления на Lock Screen и в Dynamic Island.
+Настроил скрипты для автоматической сборки SDK в том числе с созданием файлов необходимых для публикации в CocoaPods / SPM / Carthage.
+Создал эталонные демо-приложения (4 нативных &#43; 2 кроссплатформенных на Flutter и React Native), которые используются Sales-командой для презентаций клиентам, а также в качестве руководства для разработчиков при интеграции SDK в их приложения.
+Провёл исследование и внедрил динамическую подмену контента в пушах для соответствия SDK закону о защите ПД.
+Провёл исследование и внедрил мультимедиа-контент в сообщениях (html//images/gif/video/audio).
+Внедрил в SDK шифрование определенного контента, защиту от дебага и другие меры безопасности.
+Обеспечил юнит-покрытие кода SDK на уровне 70%.
+
+
+WebPush SDK (5 релизов, 5 задач).
+
+Функционал - IndexedDB, service worker, безопасность, статусы доставки/просмотра пушей, динамическая подмена контента, картинки и кнопки в пушах (если поддерживает браузер).">
 <meta name="author" content="">
-<link rel="canonical" href="https://infoweb77.github.io/posts/rapporto/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://infoweb77.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://infoweb77.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://infoweb77.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://infoweb77.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://infoweb77.github.io/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/Portfolio/posts/rapporto/">
+<link crossorigin="anonymous" href="/Portfolio/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/Portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/Portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/Portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/Portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/Portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://infoweb77.github.io/posts/rapporto/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/Portfolio/posts/rapporto/">
 <noscript>
     <style>
         #theme-toggle,
@@ -68,76 +83,13 @@ www.rapporto.ru
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://infoweb77.github.io/posts/rapporto/">
-  <meta property="og:site_name" content="Александр Шубин. Портфолио.">
-  <meta property="og:title" content="Раппорто">
-  <meta property="og:description" content="Старший iOS-программист. Март 2021 — Июнь 2026. www.rapporto.ru Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров. Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.">
-  <meta property="og:locale" content="ru_ru">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-06-30T07:07:07+01:00">
-    <meta property="article:modified_time" content="2026-06-30T07:07:07+01:00">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Раппорто">
-  <meta name="twitter:description" content="Старший iOS-программист. Март 2021 — Июнь 2026. www.rapporto.ru Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров. Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://infoweb77.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Раппорто",
-      "item": "https://infoweb77.github.io/posts/rapporto/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Раппорто",
-  "name": "Раппорто",
-  "description": "Старший iOS-программист. Март 2021 — Июнь 2026. www.rapporto.ru Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров. Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "Старший iOS-программист. Март 2021 — Июнь 2026. www.rapporto.ru Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров. Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.\nРезультаты: SDK для получения пушей: Obj-C-версия (10 релизов, 36 задач); Swift-версия (8 релизов, 56 задач); Общий функционал - Core Data для работы с локальной БД, AppGroups с возможностью настройки через файл конфигурации, Notification Service + Notification Content Extensions, NSOperation + NSOperationQueue, безопасность, статусы доставки/просмотра пушей, html, gif, jpeg и png в качестве контента, отображение кнопок в пушах, динамическая подмена контента, расширенное логгирование + Live Activities для Swift SDK.\niOS SDK используются более чем в 20-и приложений компаний-партнеров.\nWebPush SDK (5 релизов, 5 задач). Функционал - IndexedDB, service worker, безопасность, статусы доставки/просмотра пушей, динамическая подмена контента, картинки и кнопки в пушах (если поддерживает браузер).\n4 нативных приложения: TestApp (Obj-C + Obj-C SDK, Core Data, Interface Builder, App Groups, Notification Service + Notification Content Extensions, 17 релизов); DemoApp (Swift + Swift SDK, Core Data, SnapKit, App Groups, Notification Service + Notification Content Extensions); Rapporto Push (Swift + Swift SDK, Core Data, SnapKit, App Groups, Notification Service + Notification Content Extensions, 12 релизов); PWA Push App (React + WebPush SDK, Vite, JS, IndexedDB, 5 релизов). 2 кроссплатформенных приложения: FlutterApp + Swift SDK - пример интеграции Swift SDK в приложение Flutter ReactNativeApp + Swift SDK - пример интеграции Swift SDK в приложение React Native В 2021 году был реализован Push SDK на языке Obj-C и тестовое приложение для него.\nSDK обеспечивает доставку на сервер статусов пуш-сообщения (Delivered / Opened / Swiped). Обеспечено шифрование сетевых запросов, защита SDK от дебаг-режима. Корректно работает с разнообразным контентом - картинки, html, gif, видео- и аудио-файлы. Добавлена возможность настройки имени группы приложения через файл info.plist.\nНаписаны скрипты для публикации SDK как в форме .xcarchive, так и для менеджеров пакетов (Cocoapods и Swift Package Manager).\nСоздана документация для партнеров по различным вариантам интеграции SDK - в ручном режиме, с помощью менеджеров пакетов Cocoapods, SPM.\nВ приложение встроен компонент CocoaDebug для дебага сетевых запросов и отслеживания конфигурации приложения.\nПо просьбе одного из клиентов была проведена доработка - возможность настройки группы для приложения через файл info.plist.\nПокрытие SDK unit-тестами составило около 70%.\n× ❮ ❯ Пуш с кноками\nПуш с видео\nВ 2023 году Push SDK был переписан на язык Swift и также было написано новое тестовое приложение.\nДобавлен новый функционал - работа с Live Activities и с пушами с чувствительными данными - когда пуш отсылается с маскированием данных (например - персональных), по приходе сообщения на устройство SDK запрашивает информацию у сервера и отображает пуш (пример маскированных данных можно увидеть на третьей картинке).\nБыла переработана система логгирования SDK - логи стали выводиться в нативную консоль macOS (пример работы с консолью можно увидеть в разделе Flutter, 2-ое видео).\n× ❮ ❯ Новое приложение для клиентов на основе технологии Kotlin MultiPlatform. В конце 2025 года вместе с Android-программистом была начата работа над новым приложением. В настоящее время проект заморожен.\nВерстка - SwiftUI.\n× ❮ ❯ ",
-  "wordCount" : "564",
-  "inLanguage": "en",
-  "datePublished": "2026-06-30T07:07:07+01:00",
-  "dateModified": "2026-06-30T07:07:07+01:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://infoweb77.github.io/posts/rapporto/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Александр Шубин. Портфолио.",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://infoweb77.github.io/favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="https://infoweb77.github.io/" accesskey="h" title="Александр Шубин. Портфолио. (Alt + H)">Александр Шубин. Портфолио.</a>
+            <a href="http://localhost:1313/Portfolio/" accesskey="h" title="Александр Шубин. Портфолио. (Alt + H)">Александр Шубин. Портфолио.</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -163,12 +115,12 @@ www.rapporto.ru
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="https://infoweb77.github.io/" title="Александр Шубин. Портфолио.">
+                <a href="http://localhost:1313/Portfolio/" title="Александр Шубин. Портфолио.">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://infoweb77.github.io/cv/" title="Резюме">
+                <a href="http://localhost:1313/Portfolio/cv/" title="Резюме">
                     <span>Резюме</span>
                 </a>
             </li>
@@ -192,16 +144,19 @@ www.rapporto.ru
   <div class="post-content md-content"><h2 id="старший-ios-программист">Старший iOS-программист.<a hidden class="anchor" aria-hidden="true" href="#старший-ios-программист">#</a></h2>
 <h4 id="март-2021--июнь-2026">Март 2021 — Июнь 2026.<a hidden class="anchor" aria-hidden="true" href="#март-2021--июнь-2026">#</a></h4>
 <h4><a href="https://www.rapporto.ru">www.rapporto.ru</a></h4>
-<h4 id="обязанности---разработка-и-поддержание-в-актуальном-виде-rapporto-ios-push-sdk-obj-c--и--swift-версии-а-также-web-push-sdk-javascript-для-встраивания-в-приложения-партнеров">Обязанности - разработка и поддержание в актуальном виде Rapporto iOS Push SDK (Obj-C- и  Swift-версии), а также Web Push SDK (JavaScript) для встраивания в приложения партнеров.<a hidden class="anchor" aria-hidden="true" href="#обязанности---разработка-и-поддержание-в-актуальном-виде-rapporto-ios-push-sdk-obj-c--и--swift-версии-а-также-web-push-sdk-javascript-для-встраивания-в-приложения-партнеров">#</a></h4>
-<p>Разработка приложений (нативных, PWA и кроссплатформенных) для компании, а также демо-приложений c интеграцией SDK в качестве примеров для клиентов. Написание скриптов для автоматизации сборки SDK, поддержка интеграции SDK через актуальные менеджеры пакетов (CocoaPods, Swift Package Manager, Carthage). Проведение релизов SDK и приложений, разработка нового функционала, закрытие багов. Исследования в области безопасности SDK, передача видео и аудио-контента в нативных пушах, Live Activities, подмена контента в пушах и пр. Написание unit-тестов.</p>
-<h4 id="результаты">Результаты:<a hidden class="anchor" aria-hidden="true" href="#результаты">#</a></h4>
-<h4 id="sdk-для-получения-пушей">SDK для получения пушей:<a hidden class="anchor" aria-hidden="true" href="#sdk-для-получения-пушей">#</a></h4>
+<h3 id="продукт-платформа-rapporto-push-для-отправки-персонализированных-уведомлений-с-поддержкой-мультимедиа-контента-и-live-activities">Продукт: платформа Rapporto Push для отправки персонализированных уведомлений с поддержкой мультимедиа-контента и Live Activities.<a hidden class="anchor" aria-hidden="true" href="#продукт-платформа-rapporto-push-для-отправки-персонализированных-уведомлений-с-поддержкой-мультимедиа-контента-и-live-activities">#</a></h3>
+<h4 id="ключевые-достижения">Ключевые достижения:<a hidden class="anchor" aria-hidden="true" href="#ключевые-достижения">#</a></h4>
 <ul>
-<li><strong>Obj-C-версия</strong> (10 релизов, 36 задач);</li>
-<li><strong>Swift-версия</strong> (8 релизов, 56 задач);</li>
+<li><strong>Разработал 3 SDK (iOS Obj-C, iOS Swift, Web JS)</strong>, которые используются более чем в 20-и приложениях клиентов компании.</li>
+<li><strong>Спроектировал архитектуру SDK</strong>, ориентированную на лёгкость интеграции: минимальный порог входа (&lt; 30 минут на интеграцию), гибкая настройка через конфигурационный файл, поддержка всех актуальных пакетных менеджеров.</li>
+<li><strong>Внедрил Live Activities в Swift SDK</strong> — это позволило клиентам показывать динамические уведомления на Lock Screen и в Dynamic Island.</li>
+<li><strong>Настроил скрипты для автоматической сборки SDK</strong> в том числе с созданием файлов необходимых для публикации в CocoaPods / SPM / Carthage.</li>
+<li><strong>Создал эталонные демо-приложения</strong> (4 нативных + 2 кроссплатформенных на Flutter и React Native), которые используются Sales-командой для презентаций клиентам, а также в качестве руководства для разработчиков при интеграции SDK в их приложения.</li>
+<li><strong>Провёл исследование и внедрил</strong> динамическую подмену контента в пушах для соответствия SDK закону о защите ПД.</li>
+<li><strong>Провёл исследование и внедрил</strong> мультимедиа-контент в сообщениях (html//images/gif/video/audio).</li>
+<li><strong>Внедрил</strong> в SDK шифрование определенного контента, защиту от дебага и другие меры безопасности.</li>
+<li><strong>Обеспечил юнит-покрытие кода SDK на уровне 70%</strong>.</li>
 </ul>
-<p>Общий функционал - Core Data для работы с локальной БД, AppGroups с возможностью настройки через файл конфигурации, Notification Service + Notification Content Extensions, NSOperation + NSOperationQueue, безопасность, статусы доставки/просмотра пушей, html, gif, jpeg и png в качестве контента, отображение кнопок в пушах, динамическая подмена контента, расширенное логгирование + Live Activities для Swift SDK.</p>
-<p><strong>iOS SDK используются более чем в 20-и приложений компаний-партнеров.</strong></p>
 <ul>
 <li><strong>WebPush SDK</strong> (5 релизов, 5 задач).</li>
 </ul>
@@ -235,18 +190,18 @@ www.rapporto.ru
 
 <div class="gallery-grid" id="gallery-22b5f2eb6c37028d6940988bd0a75676">
   
-  <link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+  <link rel="stylesheet" href=/Portfolio/css/hugo-easy-gallery.css />
   
   <div class="gallery-item" data-index="0" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/oldApp_1.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/oldApp_1.jpg" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg" 
              alt=""
              onclick="openLightbox('gallery',  0 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/oldApp_1.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -254,7 +209,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/oldApp_1.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_1.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -276,14 +231,14 @@ www.rapporto.ru
   
   <div class="gallery-item" data-index="1" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/oldApp_2.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/oldApp_2.jpg" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg" 
              alt=""
              onclick="openLightbox('gallery',  1 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/oldApp_2.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -291,7 +246,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/oldApp_2.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_2.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -313,14 +268,14 @@ www.rapporto.ru
   
   <div class="gallery-item" data-index="2" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/oldApp_3.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_3.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/oldApp_3.jpg" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_3.jpg" 
              alt=""
              onclick="openLightbox('gallery',  2 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/oldApp_3.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_3.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -328,7 +283,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/oldApp_3.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_3.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -350,14 +305,14 @@ www.rapporto.ru
   
   <div class="gallery-item" data-index="3" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/oldApp_4.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/oldApp_4.jpg" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg" 
              alt=""
              onclick="openLightbox('gallery',  3 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/oldApp_4.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -365,7 +320,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/oldApp_4.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_4.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -387,14 +342,14 @@ www.rapporto.ru
   
   <div class="gallery-item" data-index="4" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/screen2.png');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/screen2.png');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/screen2.png" 
+             src="/Portfolio/images/rapp/pushes/old_app/screen2.png" 
              alt=""
              onclick="openLightbox('gallery',  4 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/screen2.png" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/screen2.png" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -402,7 +357,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/screen2.png';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/screen2.png';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -424,14 +379,14 @@ www.rapporto.ru
   
   <div class="gallery-item" data-index="5" data-gallery="gallery">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/old_app/tests_1.png');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/tests_1.png');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/old_app/tests_1.png" 
+             src="/Portfolio/images/rapp/pushes/old_app/tests_1.png" 
              alt=""
              onclick="openLightbox('gallery',  5 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/old_app/tests_1.png" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/old_app/tests_1.png" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -439,7 +394,7 @@ www.rapporto.ru
   <script>
   (function() {
     const galleryId = 'gallery';
-    const src = '\/images\/rapp\/pushes\/old_app\/tests_1.png';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/tests_1.png';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -804,14 +759,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="0" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/la/LA_1.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_1.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/la/LA_1.jpg" 
+             src="/Portfolio/images/rapp/la/LA_1.jpg" 
              alt=""
              onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  0 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/la/LA_1.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/la/LA_1.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -819,7 +774,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
-    const src = '\/images\/rapp\/la\/LA_1.jpg';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_1.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -841,14 +796,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="1" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/la/LA_2.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_2.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/la/LA_2.jpg" 
+             src="/Portfolio/images/rapp/la/LA_2.jpg" 
              alt=""
              onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  1 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/la/LA_2.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/la/LA_2.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -856,7 +811,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
-    const src = '\/images\/rapp\/la\/LA_2.jpg';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_2.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -878,14 +833,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="2" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/la/LA_3.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_3.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/la/LA_3.jpg" 
+             src="/Portfolio/images/rapp/la/LA_3.jpg" 
              alt=""
              onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  2 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/la/LA_3.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/la/LA_3.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -893,7 +848,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
-    const src = '\/images\/rapp\/la\/LA_3.jpg';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_3.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -1233,14 +1188,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="0" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/newApp_KMP/newApp_4.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/newApp_KMP/newApp_4.jpg" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg" 
              alt=""
              onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  0 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/newApp_KMP/newApp_4.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -1248,7 +1203,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
-    const src = '\/images\/rapp\/pushes\/newApp_KMP\/newApp_4.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_4.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -1270,14 +1225,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="1" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/newApp_KMP/newApp_5.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/newApp_KMP/newApp_5.jpg" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg" 
              alt=""
              onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  1 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/newApp_KMP/newApp_5.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -1285,7 +1240,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
-    const src = '\/images\/rapp\/pushes\/newApp_KMP\/newApp_5.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_5.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
@@ -1307,14 +1262,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="gallery-item" data-index="2" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
     <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('/images/rapp/pushes/newApp_KMP/newApp_1.jpg');">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg');">
         <img itemprop="thumbnail" 
-             src="/images/rapp/pushes/newApp_KMP/newApp_1.jpg" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg" 
              alt=""
              onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  2 )"
              loading="lazy" />
       </div>
-      <a href="/images/rapp/pushes/newApp_KMP/newApp_1.jpg" itemprop="contentUrl"></a>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg" itemprop="contentUrl"></a>
     </figure>
   </div>
   
@@ -1322,7 +1277,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <script>
   (function() {
     const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
-    const src = '\/images\/rapp\/pushes\/newApp_KMP\/newApp_1.jpg';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_1.jpg';
     const caption = '';
     
     window.galleryData = window.galleryData || {};
