@@ -9,9 +9,9 @@ menus:
   - name: Home
     pageRef: /
     weight: 1
-  - name: Резюме
-    pageRef: /CV
-    weight: 2
+  #- name: Резюме
+   # pageRef: /CV
+    #weight: 2
 
 pagination:
   disableAliases: false
