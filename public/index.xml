@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Александр Шубин. Портфолио.</title>
-    <link>https://infoweb77.gitlab.io/Portfolio/</link>
+    <link>http://localhost:1313/Portfolio/</link>
     <description>Recent content on Александр Шубин. Портфолио.</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <copyright>Александр Шубин</copyright>
     <lastBuildDate>Tue, 30 Jun 2026 07:07:07 +0100</lastBuildDate>
-    <atom:link href="https://infoweb77.gitlab.io/Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Раппорто</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/rapporto/</link>
+      <link>http://localhost:1313/Portfolio/posts/rapporto/</link>
       <pubDate>Tue, 30 Jun 2026 07:07:07 +0100</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/rapporto/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/rapporto/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;март-2021--июнь-2026&#34;&gt;Март 2021 — Июнь 2026.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Промсвязьбанк</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/psb/</link>
+      <link>http://localhost:1313/Portfolio/posts/psb/</link>
       <pubDate>Sun, 28 Feb 2021 17:10:17 +0300</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/psb/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/psb/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;сентябрь-2019--февраль-2021&#34;&gt;Сентябрь 2019 — Февраль 2021.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.psbank.ru&#34;&gt;www.psbank.ru&lt;/a&gt;&lt;/h4&gt;
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>МФК Вэббанкир</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/webb/</link>
+      <link>http://localhost:1313/Portfolio/posts/webb/</link>
       <pubDate>Mon, 30 Sep 2019 17:10:36 +0300</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/webb/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/webb/</guid>
       <description>&lt;h2 id=&#34;старший-ios-программист&#34;&gt;Старший iOS-программист.&lt;/h2&gt;
 &lt;h4 id=&#34;октябрь-2018--сентябрь-2019&#34;&gt;Октябрь 2018 — Сентябрь 2019.&lt;/h4&gt;
 &lt;h4&gt;&lt;a href=&#34;https://www.webbankir.com&#34;&gt;www.webbankir.com&lt;/a&gt;&lt;/h4&gt;
@@ -62,9 +62,9 @@
     </item>
     <item>
       <title>Фриланс</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/freelance/</link>
+      <link>http://localhost:1313/Portfolio/posts/freelance/</link>
       <pubDate>Wed, 31 Oct 2018 17:49:51 +0300</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/freelance/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/freelance/</guid>
       <description>&lt;h2 id=&#34;ios-разработчик&#34;&gt;iOS-разработчик.&lt;/h2&gt;
 &lt;h4 id=&#34;декабрь-2017--октябрь-2018&#34;&gt;Декабрь 2017 — Октябрь 2018.&lt;/h4&gt;
 &lt;h3 id=&#34;сотрудничество-с-компанией-лаборатория-нтр&#34;&gt;Сотрудничество с компанией &amp;ldquo;Лаборатория НТР&amp;rdquo;.&lt;/h3&gt;
@@ -81,9 +81,9 @@
     </item>
     <item>
       <title>Исследовательские проекты</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/studies/</link>
+      <link>http://localhost:1313/Portfolio/posts/studies/</link>
       <pubDate>Sun, 28 Feb 2016 18:25:21 +0300</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/studies/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/studies/</guid>
       <description>&lt;h4 id=&#34;январь-2013--июнь-2026&#34;&gt;Январь 2013 — Июнь 2026.&lt;/h4&gt;
 &lt;h3 id=&#34;форум-игры-timezero&#34;&gt;Форум игры Timezero.&lt;/h3&gt;
 &lt;h4 id=&#34;2013-г&#34;&gt;2013 г.&lt;/h4&gt;
@@ -101,18 +101,18 @@
 
 &lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-9125cdfe25edc21aac1fc3fcc28fd950&#34;&gt;
   
-  &lt;link rel=&#34;stylesheet&#34; href=https://infoweb77.gitlab.io/Portfolio/css/hugo-easy-gallery.css /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
   
   &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
       &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/personal/forum/1.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.gitlab.io/Portfolio/images/personal/forum/1.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/personal/forum/1.png&#34; 
              alt=&#34;Главный экран форума&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.gitlab.io/Portfolio/images/personal/forum/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/personal/forum/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;
             &lt;p&gt;Главный экран форума&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -147,20 +147,20 @@
     &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
       &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/personal/forum/2.png&#39;);&#34;&gt;
         &lt;img itemprop=&#34;thumbnail&#34; 
-             src=&#34;https://infoweb77.gitlab.io/Portfolio/images/personal/forum/2.png&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/personal/forum/2.png&#34; 
              alt=&#34;Разделы форума&#34;
              onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
              loading=&#34;lazy&#34; /&gt;
       &lt;/div&gt;
-      &lt;a href=&#34;https://infoweb77.gitlab.io/Portfolio/images/personal/forum/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/personal/forum/2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
         &lt;figcaption&gt;
             &lt;p&gt;Разделы форума&lt;/p&gt;</description>
     </item>
     <item>
       <title>Обучение</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/posts/education/</link>
+      <link>http://localhost:1313/Portfolio/posts/education/</link>
       <pubDate>Sat, 27 Feb 2016 18:25:21 +0300</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/posts/education/</guid>
+      <guid>http://localhost:1313/Portfolio/posts/education/</guid>
       <description>&lt;h2 id=&#34;изучение-платформы-ios&#34;&gt;Изучение платформы iOS&lt;/h2&gt;
 &lt;h4 id=&#34;август-2010--февраль-2016&#34;&gt;Август 2010 — Февраль 2016.&lt;/h4&gt;
 &lt;p&gt;Период активного освоения экосистемы Apple: Objective-C, ранний Swift, ключевые фреймворки и паттерны проектирования. Реализовал десятки pet-проектов, которые позволили глубоко изучить как системные API (Core Data, MapKit, PassKit), так и специализированные технологии (SpriteKit, StoreKit, TextKit, GCD).&lt;/p&gt;
@@ -171,9 +171,9 @@
     </item>
     <item>
       <title>Резюме</title>
-      <link>https://infoweb77.gitlab.io/Portfolio/cv/</link>
+      <link>http://localhost:1313/Portfolio/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://infoweb77.gitlab.io/Portfolio/cv/</guid>
+      <guid>http://localhost:1313/Portfolio/cv/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;резюме&#34; loading=&#34;lazy&#34; src=&#34;cv.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
