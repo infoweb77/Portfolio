@@ -93,7 +93,7 @@ Rapporto — это B2B-платформа, через которую банки
 {{< /gallery >}}
 
 <div class="video">
-  {{< video src="video/new_demo.mp4" >}}
+  {{< video src="video/demo.mp4" >}}
     <p style="text-align: left; margin-top: 8px;">Видеообзор приложения Rapporto Push</p>
 </div>
 
