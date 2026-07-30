@@ -9,13 +9,14 @@
 </div>
 
 <!-- Lightbox Modal -->
-<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+<div id="lightbox-modal" class="lightbox-modal">
   <span class="close-btn" onclick="closeLightbox()">&times;</span>
   <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
   <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
   
   <div class="lightbox-container">
     <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
     <div id="lightbox-counter" class="lightbox-counter"></div>
   </div>
 </div>
@@ -97,7 +98,7 @@
 
 /* ===== LIGHTBOX ===== */
 .lightbox-modal {
-  display: none !important;
+  display: none;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -110,7 +111,7 @@
 }
 
 .lightbox-modal.show {
-  display: flex !important;
+  display: flex;
 }
 
 .lightbox-container {
@@ -174,18 +175,30 @@
 
 .lightbox-modal .lightbox-content {
   max-width: 85vw;
-  max-height: 75vh;
+  max-height: 70vh;
   object-fit: contain;
   border-radius: 4px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.5);
 }
 
-.lightbox-counter {
-  color: rgba(255,255,255,0.8);
-  margin-top: 16px;
-  font-size: 1rem;
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
   text-align: center;
-  padding: 6px 16px;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
   background: rgba(0,0,0,0.4);
   border-radius: 20px;
 }
@@ -224,15 +237,18 @@
   .next-btn {
     right: 10px;
   }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
 }
 </style>
 
 <script>
 // Глобальное хранилище
 window.galleryData = window.galleryData || {};
-
-// Используем ID из параметра
-const galleryId = '{{ $galleryId }}';
 
 let currentGalleryId = null;
 let currentIndex = 0;
@@ -243,7 +259,7 @@ function openLightbox(galleryId, index) {
   
   const modal = document.getElementById('lightbox-modal');
   modal.classList.add('show');
-  modal.style.display = 'flex !important';
+  modal.style.display = 'flex';
   document.body.style.overflow = 'hidden';
   
   updateLightbox();
@@ -252,7 +268,7 @@ function openLightbox(galleryId, index) {
 function closeLightbox() {
   const modal = document.getElementById('lightbox-modal');
   modal.classList.remove('show');
-  modal.style.display = 'none !important';
+  modal.style.display = 'none';
   document.body.style.overflow = 'auto';
   currentGalleryId = null;
 }
@@ -274,11 +290,13 @@ function updateLightbox() {
   if (!images || images.length === 0) return;
   
   const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
   const counter = document.getElementById('lightbox-counter');
   const image = images[currentIndex];
   
   if (image) {
     img.src = image.src;
+    captionEl.textContent = image.caption || '';
     counter.textContent = `${currentIndex + 1} / ${images.length}`;
   }
 }

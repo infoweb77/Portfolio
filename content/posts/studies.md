@@ -28,6 +28,21 @@ title: 'Исследовательские проекты'
 
 ---
 
+### Приложение Music Player. 
+#### 2014 г.
+
+Работа с авторизацией OAuth через нативный SDK ВКонтакте, стриминг аудиопотока и управление очередью воспроизведения.
+
+{{< gallery layout="grid" id="gallery30" >}}
+  {{< figure src="images/personal/music/music1.jpg" >}}
+  {{< figure src="images/personal/music/music2.jpg" >}}
+  {{< figure src="images/personal/music/music3.jpg" >}}
+{{< /gallery >}}
+
+Язык - Objective-C. Основные фреймворки: UIKit, Core Graphics, VK iOS SDK.
+
+---
+
 ### Приложение Gists. 
 #### 2018 г.
 

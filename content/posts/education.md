@@ -146,20 +146,6 @@ title: 'Обучение'
 
 ---
 
-### Приложение Music Player. 
-
-Работа с авторизацией OAuth через нативный SDK ВКонтакте, стриминг аудиопотока и управление очередью воспроизведения.
-
-{{< gallery layout="grid" id="gallery30" >}}
-  {{< figure src="images/apps/music/music1.jpg" >}}
-  {{< figure src="images/apps/music/music2.jpg" >}}
-  {{< figure src="images/apps/music/music3.jpg" >}}
-{{< /gallery >}}
-
-Язык - Objective-C. Основные фреймворки: UIKit, Core Graphics, VK iOS SDK.
-
----
-
 ### Приложение FlyMeThere. 
 
 Построение мультимодальных маршрутов (авто → авиа → авто) между произвольными точками земного шара.
