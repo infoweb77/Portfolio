@@ -95,12 +95,12 @@ title: 'Фриланс'
 ---
 
 {{< gallery layout="grid" id="gallery15" >}}
-  {{< figure src="images/gorod/MoiGorod_1.jpg" >}}
-  {{< figure src="images/gorod/MoiGorod_2.jpg" >}}
-  {{< figure src="images/gorod/MoiGorod_3.jpg" >}}
-  {{< figure src="images/gorod/MoiGorod_4.jpg" >}}
-  {{< figure src="images/gorod/MoiGorod_9.jpg" >}}
-  {{< figure src="images/gorod/MoiGorod_10.jpg" >}}
+  {{< figure src="images/gorod/MoiGorod_1.jpg" caption="Раздел 'Обсуждения'">}}
+  {{< figure src="images/gorod/MoiGorod_2.jpg" caption="Одна из тем. Начало">}}
+  {{< figure src="images/gorod/MoiGorod_3.jpg" caption="Одна из тем. Посты">}}
+  {{< figure src="images/gorod/MoiGorod_4.jpg" caption="Форма для старта темы">}}
+  {{< figure src="images/gorod/MoiGorod_9.jpg" caption="Другая тема. Комментарии">}}
+  {{< figure src="images/gorod/MoiGorod_10.jpg" caption="Другая тема. Комментарии">}}
 {{< /gallery >}}
 
 Язык проекта - Objective-C.
@@ -122,20 +122,20 @@ title: 'Фриланс'
 **Продукт:** Приложение для поиска врачей/пациентов, записи на приём, ведения журнала приёмов.
 
 **Выполненные задачи:**
-- Реализовал картографическую часть: миграция с Apple MapKit на Google Maps, подключение библиотеки кластеризации для отображения до 7500 объектов без потери производительности.
-- Разработал фильтры отображения (по специализации врачей, доступному времени).
+- Реализовал картографическую часть: миграция с Apple MapKit на Google Maps, подключение библиотеки кластеризации.
+- Разработал фильтры отображения (по специализации врачей, доступному времени, аватару/фотографии).
 - Сверстал экраны со списками карточек докторов.
 
 {{< gallery layout="grid" id="gallery16" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_1.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_5.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_6.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_7.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_9.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_10.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_15.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_16.jpg" >}}
-  {{< figure src="images/tech/dnm/DrNearMe_19.jpg" >}}
+  {{< figure src="images/tech/dnm/DrNearMe_1.jpg" caption="Главный экран">}}
+  {{< figure src="images/tech/dnm/DrNearMe_5.jpg" caption="Фильтр для отображения пинов на карте">}}
+  {{< figure src="images/tech/dnm/DrNearMe_6.jpg" caption="Карточка врача, соответствующая пину">}}
+  {{< figure src="images/tech/dnm/DrNearMe_7.jpg" caption="Отображение пинов по специализации">}}
+  {{< figure src="images/tech/dnm/DrNearMe_9.jpg" caption="Пин с фотографией">}}
+  {{< figure src="images/tech/dnm/DrNearMe_10.jpg" caption="Пин с фотографией">}}
+  {{< figure src="images/tech/dnm/DrNearMe_15.jpg" caption="Пин с доступным временем для посещения">}}
+  {{< figure src="images/tech/dnm/DrNearMe_16.jpg" caption="Пины с доступным временем. N/A - недоступно">}}
+  {{< figure src="images/tech/dnm/DrNearMe_19.jpg" caption="Карточки врачей">}}
 {{< /gallery >}}
 
 Язык - Switf 2.2. 
@@ -150,15 +150,15 @@ title: 'Фриланс'
 **Выполненные задачи:**
 - Реализовал каталог с поиском по характеристикам.
 - Встроил видеоплеер для YouTube.
-- Добавил форму отправки заказа менеджеру.
+- Авторизация по e-mail / Facebook API.
 
 {{< gallery layout="grid" id="gallery17" >}}
-  {{< figure src="images/tech/as/ArchSkin_1.jpg" >}}
-  {{< figure src="images/tech/as/ArchSkin_2.jpg" >}}
-  {{< figure src="images/tech/as/ArchSkin_4.jpg" >}}
-  {{< figure src="images/tech/as/ArchSkin_7.jpg" >}}
-  {{< figure src="images/tech/as/ArchSkin_8.jpg" >}}
-  {{< figure src="images/tech/as/ArchSkin_15.jpg" >}}
+  {{< figure src="images/tech/as/ArchSkin_1.jpg" caption="Каталог керамогранита">}}
+  {{< figure src="images/tech/as/ArchSkin_2.jpg" caption="Экран авторизации">}}
+  {{< figure src="images/tech/as/ArchSkin_4.jpg" caption="Раздел 'Выполненные проекты'">}}
+  {{< figure src="images/tech/as/ArchSkin_7.jpg" caption="Встроенный плеер YouTube">}}
+  {{< figure src="images/tech/as/ArchSkin_8.jpg" caption="Экран настроек">}}
+  {{< figure src="images/tech/as/ArchSkin_15.jpg" caption="Меню приложения">}}
 {{< /gallery >}}
 
 Язык - Switf 3.0.

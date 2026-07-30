@@ -34,9 +34,9 @@ title: 'Исследовательские проекты'
 Работа с авторизацией OAuth через нативный SDK ВКонтакте, стриминг аудиопотока и управление очередью воспроизведения.
 
 {{< gallery layout="grid" id="gallery30" >}}
-  {{< figure src="images/personal/music/music1.jpg" >}}
-  {{< figure src="images/personal/music/music2.jpg" >}}
-  {{< figure src="images/personal/music/music3.jpg" >}}
+  {{< figure src="images/personal/music/music1.jpg" caption="Главный экран со списком треков">}}
+  {{< figure src="images/personal/music/music2.jpg" caption="Поиск композиции">}}
+  {{< figure src="images/personal/music/music3.jpg" caption="Плеер">}}
 {{< /gallery >}}
 
 Язык - Objective-C. Основные фреймворки: UIKit, Core Graphics, VK iOS SDK.
@@ -52,12 +52,12 @@ title: 'Исследовательские проекты'
 - Изучил авторизацию OAuth 2.0, пагинацию больших списков данных, отображение gist-шаблонов кода с фильтрацией по статусам (Public / Starred / My Gists).
 
 {{< gallery layout="grid" id="gallery14">}}
-  {{< figure src="images/personal/gists/gists_2.jpg" >}}
-  {{< figure src="images/personal/gists/gists_3.jpg" >}}
-  {{< figure src="images/personal/gists/gists_5.jpg" >}}
-  {{< figure src="images/personal/gists/gists_6.jpg" >}}
-  {{< figure src="images/personal/gists/gists_7.jpg" >}}
-  {{< figure src="images/personal/gists/gists_10.jpg" >}}
+  {{< figure src="images/personal/gists/gists_2.jpg" caption="Сплеш-скрин">}}
+  {{< figure src="images/personal/gists/gists_3.jpg" caption="Раздел Starred">}}
+  {{< figure src="images/personal/gists/gists_5.jpg" caption="Раздел Public">}}
+  {{< figure src="images/personal/gists/gists_6.jpg" caption="Раздел Public">}}
+  {{< figure src="images/personal/gists/gists_7.jpg" caption="Раздел Public">}}
+  {{< figure src="images/personal/gists/gists_10.jpg" caption="Сохраненный шаблон кода">}}
 {{< /gallery >}}
 
 Язык проекта - Swift 3.0. 
@@ -68,15 +68,15 @@ title: 'Исследовательские проекты'
 
 ### Google Maps Utils. 
 
-**Продукт:** Тестовое приложение для отработки алгоритма кластеризации на Google Maps.
+**Продукт:** Тестовое приложение для отработки алгоритма кластеризации DDRBoxman на Google Maps.
 
 **Выполненные задачи:**
 - Оптимизировал обработку >7500 геообъектов на карте, портировав алгоритм с Objective-C на чистый Swift.
 
 {{< gallery layout="grid" id="gallery19" >}}
-  {{< figure src="images/personal/maps/maps1.jpg" >}}
-  {{< figure src="images/personal/maps/maps2.jpg" >}}
-  {{< figure src="images/personal/maps/maps3.jpg" >}}
+  {{< figure src="images/personal/maps/maps1.jpg" caption="Карта с объектами, сгруппированными в кластеры">}}
+  {{< figure src="images/personal/maps/maps2.jpg" caption="При изменении карты кластеры меняются">}}
+  {{< figure src="images/personal/maps/maps3.jpg" caption="Цвет кластера зависит от количества объектов">}}
 {{< /gallery >}}
 
 Язык - Swift 2.0. Основной фрэймворк: GoogleMaps. 

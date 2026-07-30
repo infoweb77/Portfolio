@@ -72,11 +72,11 @@ Rapporto — это B2B-платформа, через которую банки
 
 <div class="video-grid">
   <div>
-    {{< video src="video/image+buttons1.MP4" >}}
+    {{< video src="video/imagepush.MP4" >}}
      <p style="text-align: center; margin-top: 8px;">пуш с картинкой и кнопками</p>
   </div>
   <div>
-    {{< video src="video/video1.MP4" >}}
+    {{< video src="video/videopush.MP4" >}}
      <p style="text-align: center; margin-top: 8px;">Пуш с видео</p>
   </div>
 </div>
@@ -92,7 +92,7 @@ Rapporto — это B2B-платформа, через которую банки
   {{< figure src="images/rapp/la/LA_3.jpg" caption="пример маскированного текста в пуш-сообщении">}}
 {{< /gallery >}}
 
-<div class="video-1">
+<div class="video">
   {{< video src="video/new_demo.MP4" >}}
     <p style="text-align: left; margin-top: 8px;">Видеообзор приложения Rapporto Push</p>
 </div>
