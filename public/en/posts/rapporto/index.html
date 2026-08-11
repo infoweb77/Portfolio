@@ -1,0 +1,3067 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/Portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Rapporto | Alexander Shubin. Portfolio.</title>
+<meta name="keywords" content="">
+<meta name="description" content="Senior iOS Developer.
+March 2021 — June 2026.
+www.rapporto.ru
+Product:
+Rapporto is a B2B platform enabling banks and large retailers to send personalized push notifications with interactive multimedia content to their clients.
+Key Achievements:
+SDK Architecture &amp; Functionality.
+Designed the architecture for two Rapporto iOS Push SDKs (Obj-C and Swift). The library ensures the delivery of push notification statuses (Delivered / Opened / Swiped) to the server. Correctly handles diverse content types - images, HTML, GIFs, video, and audio files. Added the ability to configure the app group name via the info.plist file.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/Portfolio/en/posts/rapporto/">
+<link crossorigin="anonymous" href="/Portfolio/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/Portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/Portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/Portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/Portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/Portfolio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ru" href="http://localhost:1313/Portfolio/ru/posts/rapporto/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/Portfolio/en/posts/rapporto/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/Portfolio/en/" accesskey="h" title="Alexander Shubin. Portfolio. (Alt + H)">Alexander Shubin. Portfolio.</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/Portfolio/ru/" title="Русский"
+                                aria-label="Русский">Ru</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/Portfolio/en/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Rapporto
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-06-30 07:07:07 +0100 +0100'>June 30, 2026</span>&nbsp;|&nbsp;<span>Translations:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="http://localhost:1313/Portfolio/ru/posts/rapporto/">Ru</a>
+        </li>
+    </ul>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h2 id="senior-ios-developer">Senior iOS Developer.<a hidden class="anchor" aria-hidden="true" href="#senior-ios-developer">#</a></h2>
+<h4 id="march-2021--june-2026">March 2021 — June 2026.<a hidden class="anchor" aria-hidden="true" href="#march-2021--june-2026">#</a></h4>
+<h4><a href="https://www.rapporto.ru">www.rapporto.ru</a></h4>
+<h3 id="product">Product:<a hidden class="anchor" aria-hidden="true" href="#product">#</a></h3>
+<p>Rapporto is a B2B platform enabling banks and large retailers to send personalized push notifications with interactive multimedia content to their clients.</p>
+<h3 id="key-achievements">Key Achievements:<a hidden class="anchor" aria-hidden="true" href="#key-achievements">#</a></h3>
+<h4 id="sdk-architecture--functionality">SDK Architecture &amp; Functionality.<a hidden class="anchor" aria-hidden="true" href="#sdk-architecture--functionality">#</a></h4>
+<p>Designed the architecture for two Rapporto iOS Push SDKs (Obj-C and Swift). The library ensures the delivery of push notification statuses (Delivered / Opened / Swiped) to the server. Correctly handles diverse content types - images, HTML, GIFs, video, and audio files. Added the ability to configure the app group name via the info.plist file.</p>
+<h4 id="implementation-of-live-activities-and-dynamic-island">Implementation of Live Activities and Dynamic Island.<a hidden class="anchor" aria-hidden="true" href="#implementation-of-live-activities-and-dynamic-island">#</a></h4>
+<p>Implementing Live Activities for the Swift SDK was a complex and interesting challenge. It required enabling dynamic data updates on the Lock Screen (e.g., delivery status or currency exchange rates) in real-time. This feature resulted in an average <strong>15% increase in CTR</strong> for clients&rsquo; marketing campaigns.</p>
+<h4 id="security-and-compliance-with-152-fz">Security and Compliance with 152-FZ.<a hidden class="anchor" aria-hidden="true" href="#security-and-compliance-with-152-fz">#</a></h4>
+<p>Integrated encryption for HTTP request headers, protected the SDK from debugging, and obfuscated the library&rsquo;s internal logic by configuring symbol visibility (Visibility Hidden) and verifying the final ARM64 binary using Ghidra.
+Collaborated with the team to develop a technology for content masking and dynamic substitution to comply with Federal Law No. 152-FZ, eliminating the need to transmit personal data to external servers. Implemented the client-side part of this technology in my SDKs.</p>
+<h4 id="build-automation-and-distribution">Build Automation and Distribution.<a hidden class="anchor" aria-hidden="true" href="#build-automation-and-distribution">#</a></h4>
+<p>Wrote a Shell script that automatically generates <code>podspec</code>, <code>Package.swift</code>, and archives binaries. Publishing the SDK is now a single-command process, eliminating human error and accelerating update releases. Integration time for B2B clients was reduced to 30 minutes, reaching a total audience of 20+ applications.</p>
+<h4 id="demo-applications-and-documentation">Demo Applications and Documentation.<a hidden class="anchor" aria-hidden="true" href="#demo-applications-and-documentation">#</a></h4>
+<p>Created 6 demo applications (3 native iOS + 2 cross-platform for Flutter and React Native + PWA for web push), serving as guides for developers integrating the SDK. Combined with detailed documentation, this reduced support inquiries by 70%.</p>
+<p>Demo Apps: <a href="https://github.com/zgr-im/zgr-push-service-ios-sdk/tree/main/sample_Objective-C">Obj-C</a> and <a href="https://github.com/zgr-im/zgr-push-service-ios-sdk/tree/main/sample_Swift">Swift</a></p>
+<p>Documentation Examples:</p>
+<ul>
+<li>iOS - SDK Integration <a href="https://doc.rapporto.ru/push_service/sdk/mobile/manually_install.html">Manually</a>, via Package Managers <a href="https://doc.rapporto.ru/push_service/sdk/mobile/pod_install.html">Cocoapods</a>, <a href="https://doc.rapporto.ru/push_service/sdk/mobile/spm_install.html">SPM</a>.</li>
+<li>React Native - <a href="https://doc.rapporto.ru/push_service/sdk/mobile/RN_install.html">Integration</a> and <a href="https://doc.rapporto.ru/push_service/sdk/mobile/RN_usage.html">Usage</a>.</li>
+<li>Flutter - <a href="https://doc.rapporto.ru/push_service/sdk/mobile/flutter_install.html">Integration</a> and <a href="https://doc.rapporto.ru/push_service/sdk/mobile/flutter_usage.html">Usage</a>.</li>
+</ul>
+<p><strong>Details on each demo application:</strong></p>
+<hr>
+<p><strong>• TestApp (Native iOS, Obj-C SDK)</strong>
+Application for testing the Objective-C version of the SDK.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-22b5f2eb6c37028d6940988bd0a75676">
+  
+  <link rel="stylesheet" href=/Portfolio/css/hugo-easy-gallery.css />
+  
+  <div class="gallery-item" data-index="0" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg" 
+             alt="Main Screen"
+             onclick="openLightbox('gallery',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_1.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Main Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_1.jpg';
+    const caption = 'Main Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg" 
+             alt="History Screen"
+             onclick="openLightbox('gallery',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_2.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>History Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_2.jpg';
+    const caption = 'History Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="gallery">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg" 
+             alt="Network Debug"
+             onclick="openLightbox('gallery',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/old_app/oldApp_4.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Network Debug</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = 'gallery';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/oldApp_4.jpg';
+    const caption = 'Network Debug';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<style>
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.video-grid video {
+  width: 100%;
+  height: auto;
+}
+</style>
+<div class="video-grid">
+  <div>
+    
+    <video src="video/imagepush.mp4" controls muted></video>
+
+     <p style="text-align: center; margin-top: 8px;">Push with image and buttons</p>
+  </div>
+  <div>
+    
+    <video src="video/videopush.mp4" controls muted></video>
+
+     <p style="text-align: center; margin-top: 8px;">Push with video</p>
+  </div>
+</div>
+<hr>
+<p><strong>• Rapporto Push (Native iOS, Swift SDK)</strong>
+Primary demo application for the Swift SDK with full functionality.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-0ac1ce9ac00969bdd395f3ec4c00aca1">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/la/LA_1.jpg" 
+             alt="Live Activity on Lock Screen"
+             onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/la/LA_1.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Live Activity on Lock Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_1.jpg';
+    const caption = 'Live Activity on Lock Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/la/LA_2.jpg" 
+             alt="Dynamic Island on Lock Screen"
+             onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/la/LA_2.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Dynamic Island on Lock Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_2.jpg';
+    const caption = 'Dynamic Island on Lock Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="22b5f2eb6c37028d6940988bd0a75676">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/la/LA_3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/la/LA_3.jpg" 
+             alt="Example of masked text in a push notification"
+             onclick="openLightbox('22b5f2eb6c37028d6940988bd0a75676',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/la/LA_3.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Example of masked text in a push notification</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '22b5f2eb6c37028d6940988bd0a75676';
+    const src = '\/Portfolio\/images\/rapp\/la\/LA_3.jpg';
+    const caption = 'Example of masked text in a push notification';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<div class="video">
+  
+  <video src="video/demo.mp4" controls muted></video>
+
+    <p style="text-align: left; margin-top: 8px;">Rapporto Push App Overview Video</p>
+</div>
+<hr>
+<div class="video">
+  
+  <video src="video/LA_video.mp4" controls muted></video>
+
+    <p style="text-align: center; margin-top: 8px;">Live Activities in the Rapporto Push App</p>
+</div>
+<hr>
+<p><strong>• React Native Application</strong> (Swift SDK Integration)</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-617b1ead8ac1ebbe98f6d9dc3591ea7e">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/rn/RN_3.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/rn/RN_3.jpg" 
+             alt="Push History, Simple Text Push"
+             onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/rn/RN_3.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push History, Simple Text Push</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
+    const src = '\/Portfolio\/images\/rapp\/rn\/RN_3.jpg';
+    const caption = 'Push History, Simple Text Push';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/rn/RN_2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/rn/RN_2.jpg" 
+             alt="Push History, Push with Image"
+             onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/rn/RN_2.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push History, Push with Image</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
+    const src = '\/Portfolio\/images\/rapp\/rn\/RN_2.jpg';
+    const caption = 'Push History, Push with Image';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="0ac1ce9ac00969bdd395f3ec4c00aca1">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/rn/RN_4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/rn/RN_4.jpg" 
+             alt="Push on Lock Screen with PNG Image"
+             onclick="openLightbox('0ac1ce9ac00969bdd395f3ec4c00aca1',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/rn/RN_4.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push on Lock Screen with PNG Image</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '0ac1ce9ac00969bdd395f3ec4c00aca1';
+    const src = '\/Portfolio\/images\/rapp\/rn\/RN_4.jpg';
+    const caption = 'Push on Lock Screen with PNG Image';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<hr>
+<p><strong>• Flutter Application</strong> (Swift SDK Integration)</p>
+<div class="video">
+  
+  <video src="video/flutter_1.mp4" controls muted></video>
+
+    <p style="text-align: left; margin-top: 8px;">Push with image in Flutter app</p>
+</div>
+<hr>
+<div class="video">
+  
+  <video src="video/flutter_21.mp4" controls muted></video>
+
+    <p style="text-align: center; margin-top: 8px;">Simulator and macOS Console - Sending Delivered status to server on push arrival</p>
+</div>
+<hr>
+<p><strong>• PWA (Web Push SDK)</strong>.
+PWA application with an integrated Web Push SDK.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-8191c94666440a05f8632348a00f43ac">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/web_1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/web_1.jpg" 
+             alt="Push on iOS device"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/web_1.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push on iOS device</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/web_1.jpg';
+    const caption = 'Push on iOS device';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/web_2.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/web_2.jpg" 
+             alt="Push on Google Pixel"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/web_2.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push on Google Pixel</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/web_2.jpg';
+    const caption = 'Push on Google Pixel';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/entry.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/entry.jpg" 
+             alt="Splash Screen"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/entry.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Splash Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/entry.jpg';
+    const caption = 'Splash Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="3" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/login.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/login.jpg" 
+             alt="Login Screen"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  3 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/login.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Login Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/login.jpg';
+    const caption = 'Login Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="4" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/empty.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/empty.jpg" 
+             alt="No Notifications Yet"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  4 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/empty.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>No Notifications Yet</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/empty.jpg';
+    const caption = 'No Notifications Yet';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="5" data-gallery="617b1ead8ac1ebbe98f6d9dc3591ea7e">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/web/pushes.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/web/pushes.jpg" 
+             alt="Push History"
+             onclick="openLightbox('617b1ead8ac1ebbe98f6d9dc3591ea7e',  5 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/web/pushes.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Push History</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '617b1ead8ac1ebbe98f6d9dc3591ea7e';
+    const src = '\/Portfolio\/images\/rapp\/web\/pushes.jpg';
+    const caption = 'Push History';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<hr>
+<h4 id="ensured-unit-test-coverage-of-the-sdk-core-at-70">Ensured unit test coverage of the SDK core at 70%.<a hidden class="anchor" aria-hidden="true" href="#ensured-unit-test-coverage-of-the-sdk-core-at-70">#</a></h4>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-2e8265966b1140bd30d129e79ab618e2">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="8191c94666440a05f8632348a00f43ac">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/old_app/tests_1.png');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/old_app/tests_1.png" 
+             alt="127 unit tests, all green"
+             onclick="openLightbox('8191c94666440a05f8632348a00f43ac',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/old_app/tests_1.png" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>127 unit tests, all green</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '8191c94666440a05f8632348a00f43ac';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/old_app\/tests_1.png';
+    const caption = '127 unit tests, all green';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<h4 id="web-push-sdk">Web Push SDK<a hidden class="anchor" aria-hidden="true" href="#web-push-sdk">#</a></h4>
+<p>In 2025, I developed a JavaScript SDK for PWA and browsers with support for Service Workers, IndexedDB, and sending push statuses to the server. Also implemented dynamic content substitution, images, and buttons in pushes (where browser-supported).
+<em>The corresponding gallery is provided above in the PWA section.</em></p>
+<h4 id="kotlin-multiplatform">Kotlin MultiPlatform<a hidden class="anchor" aria-hidden="true" href="#kotlin-multiplatform">#</a></h4>
+<p>In late autumn 2025, together with an Android developer, we started a project for a new client application (currently on hold due to changing business priorities); UI development using SwiftUI.</p>
+
+
+
+
+
+
+<div class="gallery-grid" id="gallery-00649fed240c67a80220e95be6f15a67">
+  
+  
+  
+  <div class="gallery-item" data-index="0" data-gallery="2e8265966b1140bd30d129e79ab618e2">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg" 
+             alt="Main Screen. General info on sends and statuses across all channels"
+             onclick="openLightbox('2e8265966b1140bd30d129e79ab618e2',  0 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_4.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Main Screen. General info on sends and statuses across all channels</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '2e8265966b1140bd30d129e79ab618e2';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_4.jpg';
+    const caption = 'Main Screen. General info on sends and statuses across all channels';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="1" data-gallery="2e8265966b1140bd30d129e79ab618e2">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg" 
+             alt="Detailed info on sends and statuses per channel"
+             onclick="openLightbox('2e8265966b1140bd30d129e79ab618e2',  1 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_5.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Detailed info on sends and statuses per channel</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '2e8265966b1140bd30d129e79ab618e2';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_5.jpg';
+    const caption = 'Detailed info on sends and statuses per channel';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+  
+  
+  <div class="gallery-item" data-index="2" data-gallery="2e8265966b1140bd30d129e79ab618e2">
+    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg');">
+        <img itemprop="thumbnail" 
+             src="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg" 
+             alt="Analytics Section. Detailed Report Screen"
+             onclick="openLightbox('2e8265966b1140bd30d129e79ab618e2',  2 )"
+             loading="lazy" />
+      </div>
+      <a href="/Portfolio/images/rapp/pushes/newApp_KMP/newApp_1.jpg" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Analytics Section. Detailed Report Screen</p>
+        </figcaption>
+    </figure>
+  </div>
+  
+  
+  <script>
+  (function() {
+    const galleryId = '2e8265966b1140bd30d129e79ab618e2';
+    const src = '\/Portfolio\/images\/rapp\/pushes\/newApp_KMP\/newApp_1.jpg';
+    const caption = 'Analytics Section. Detailed Report Screen';
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item => item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  </script>
+
+</div>
+
+
+<div id="lightbox-modal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <button class="nav-btn prev-btn" onclick="navigateLightbox(-1)">&#10094;</button>
+  <button class="nav-btn next-btn" onclick="navigateLightbox(1)">&#10095;</button>
+  
+  <div class="lightbox-container">
+    <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+    <div id="lightbox-counter" class="lightbox-counter"></div>
+  </div>
+</div>
+
+<style>
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+</style>
+
+<script>
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.add('show');
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById('lightbox-modal');
+  modal.classList.remove('show');
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById('lightbox-img');
+  const captionEl = document.getElementById('lightbox-caption');
+  const counter = document.getElementById('lightbox-counter');
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || '';
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal.classList.contains('show')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    if (e.key === 'ArrowRight') navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const modal = document.getElementById('lightbox-modal');
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+</script>
+<hr>
+<p><strong>Tech Stack:</strong> Swift, Objective‑C, JavaScript, Dart; UIKit, SnapKit; Core Data, AppGroups, Live Activities/ActivityKit; Swinject; CocoaPods, SPM, Carthage; Fastlane, XcodeGen; GCD, async/await; XCTest.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© Alexander Shubin</span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+<script type="text/javascript">
+    var sc_project=13339916; 
+    var sc_invisible=0; 
+    var sc_security="d8e36a05"; 
+    var scJsHost = "https://";
+    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+        Statcounter" href="https://statcounter.com/" target="_blank"><img
+        class="statcounter" src="https://c.statcounter.com/13339916/0/d8e36a05/0/"
+        alt="Web Analytics Made Easy - Statcounter"
+        referrerPolicy="no-referrer-when-downgrade"></a>
+    </div>
+</noscript>
+
+</body>
+
+</html>

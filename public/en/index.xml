@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Alexander Shubin. Portfolio.</title>
+    <link>http://localhost:1313/Portfolio/en/</link>
+    <description>Recent content on Alexander Shubin. Portfolio.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Alexander Shubin</copyright>
+    <lastBuildDate>Tue, 30 Jun 2026 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/Portfolio/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rapporto</title>
+      <link>http://localhost:1313/Portfolio/en/posts/rapporto/</link>
+      <pubDate>Tue, 30 Jun 2026 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/rapporto/</guid>
+      <description>&lt;h2 id=&#34;senior-ios-developer&#34;&gt;Senior iOS Developer.&lt;/h2&gt;
+&lt;h4 id=&#34;march-2021--june-2026&#34;&gt;March 2021 — June 2026.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.rapporto.ru&#34;&gt;www.rapporto.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;product&#34;&gt;Product:&lt;/h3&gt;
+&lt;p&gt;Rapporto is a B2B platform enabling banks and large retailers to send personalized push notifications with interactive multimedia content to their clients.&lt;/p&gt;
+&lt;h3 id=&#34;key-achievements&#34;&gt;Key Achievements:&lt;/h3&gt;
+&lt;h4 id=&#34;sdk-architecture--functionality&#34;&gt;SDK Architecture &amp;amp; Functionality.&lt;/h4&gt;
+&lt;p&gt;Designed the architecture for two Rapporto iOS Push SDKs (Obj-C and Swift). The library ensures the delivery of push notification statuses (Delivered / Opened / Swiped) to the server. Correctly handles diverse content types - images, HTML, GIFs, video, and audio files. Added the ability to configure the app group name via the info.plist file.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Promsvyazbank</title>
+      <link>http://localhost:1313/Portfolio/en/posts/psb/</link>
+      <pubDate>Sun, 28 Feb 2021 17:10:17 +0300</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/psb/</guid>
+      <description>&lt;h2 id=&#34;senior-ios-developer&#34;&gt;Senior iOS Developer.&lt;/h2&gt;
+&lt;h4 id=&#34;september-2019--february-2021&#34;&gt;September 2019 — February 2021.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.psbank.ru&#34;&gt;www.psbank.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;product&#34;&gt;Product:&lt;/h3&gt;
+&lt;p&gt;Mobile banking application for SMEs featuring online banking, document management, and support chats.&lt;/p&gt;
+&lt;h3 id=&#34;key-achievements&#34;&gt;Key Achievements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;transition-to-adaptive-layout&#34;&gt;Transition to Adaptive Layout.&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Proposed migrating the team from Storyboard constraints to code-based adaptive layout using the SnapKit framework. The team implemented the transition. This not only significantly accelerated development but also later enabled a large-scale redesign. The updated design was well-received by users – the app&amp;rsquo;s average App Store rating increased from 3.2 to 4.6 within 6 months.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MFC Webbankir</title>
+      <link>http://localhost:1313/Portfolio/en/posts/webb/</link>
+      <pubDate>Mon, 30 Sep 2019 17:10:36 +0300</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/webb/</guid>
+      <description>&lt;h2 id=&#34;senior-ios-developer&#34;&gt;Senior iOS Developer.&lt;/h2&gt;
+&lt;h4 id=&#34;october-2018--september-2019&#34;&gt;October 2018 — September 2019.&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.webbankir.com&#34;&gt;www.webbankir.com&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;product&#34;&gt;Product:&lt;/h3&gt;
+&lt;p&gt;An application for managing microloans and consumer lending for Webbankir.&lt;/p&gt;
+&lt;h3 id=&#34;key-achievements&#34;&gt;Key Achievements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;release-manager&#34;&gt;Release Manager.&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From February 2019, I took over application release preparation: organizing pre-release testing, final bug fixes, preparing marketing screenshots and App Store texts, and communicating with managers. Over 8 months, I managed &lt;strong&gt;6 releases and 5 hotfixes&lt;/strong&gt; — all successfully passed review, &lt;strong&gt;none&lt;/strong&gt; were rejected by Apple.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Freelance</title>
+      <link>http://localhost:1313/Portfolio/en/posts/freelance/</link>
+      <pubDate>Wed, 31 Oct 2018 17:49:51 +0300</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/freelance/</guid>
+      <description>&lt;h2 id=&#34;ios-developer&#34;&gt;iOS Developer.&lt;/h2&gt;
+&lt;h4 id=&#34;december-2017--october-2018&#34;&gt;December 2017 — October 2018.&lt;/h4&gt;
+&lt;h3 id=&#34;collaboration-with-laboratory-ntr-company&#34;&gt;Collaboration with &amp;ldquo;Laboratory NTR&amp;rdquo; Company.&lt;/h3&gt;
+&lt;h4&gt;&lt;a href=&#34;https://www.ntrlab.ru&#34;&gt;www.ntrlab.ru&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;mosgortrans-app&#34;&gt;&amp;ldquo;Mosgortrans&amp;rdquo; App:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adapted the app for visually impaired users using Dynamic Fonts and VoiceOver technologies;&lt;/li&gt;
+&lt;li&gt;Added multilingual support - the interface now supports 6 languages;&lt;/li&gt;
+&lt;li&gt;Developed new features, fixed bugs, and refactored legacy code.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-afaf9a8b293262e22499b922fa99862e&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/sine/sinergo_1.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/sine/sinergo_1.jpg&#34; 
+             alt=&#34;Tariff Calculator. Russian language&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/sine/sinergo_1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Tariff Calculator. Russian language&lt;/p&gt;
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/Portfolio\/images\/sine\/sinergo_1.jpg&#39;;
+    const caption = &#39;Tariff Calculator. Russian language&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/sine/sinergo_6.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/sine/sinergo_6.jpg&#34; 
+             alt=&#34;Tariff Calculator. English language&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/sine/sinergo_6.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Tariff Calculator. English language&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Projects</title>
+      <link>http://localhost:1313/Portfolio/en/posts/studies/</link>
+      <pubDate>Sun, 28 Feb 2016 18:25:21 +0300</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/studies/</guid>
+      <description>&lt;h4 id=&#34;january-2013--june-2026&#34;&gt;January 2013 — June 2026.&lt;/h4&gt;
+&lt;h3 id=&#34;timezero-game-forum-app&#34;&gt;Timezero Game Forum App.&lt;/h3&gt;
+&lt;h4 id=&#34;2013&#34;&gt;2013&lt;/h4&gt;
+&lt;p&gt;Developed a native iOS application for interacting with the Timezero game forum (not a webview).&lt;/p&gt;
+&lt;p&gt;Core functionality: browsing sections and pages, refreshing articles, user authorization, editing and publishing posts, and creating new topics. Implemented networking, HTML parsing, content rendering with necessary graphics, and page caching and updating.&lt;/p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-9125cdfe25edc21aac1fc3fcc28fd950&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/personal/forum/1.png&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/personal/forum/1.png&#34; 
+             alt=&#34;Forum Main Screen&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/personal/forum/1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            &lt;p&gt;Forum Main Screen&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/Portfolio/en/posts/education/</link>
+      <pubDate>Sat, 27 Feb 2016 18:25:21 +0300</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/posts/education/</guid>
+      <description>&lt;h2 id=&#34;ios-platform-studies&#34;&gt;iOS Platform Studies&lt;/h2&gt;
+&lt;h4 id=&#34;august-2010--february-2016&#34;&gt;August 2010 — February 2016.&lt;/h4&gt;
+&lt;p&gt;A period of active exploration of the iOS ecosystem (Objective-C, early Swift). Completed numerous pet projects to learn specialized technologies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;system-programming--data-handling&#34;&gt;System Programming &amp;amp; Data Handling:&lt;/h2&gt;
+&lt;h3 id=&#34;classic-photos-app&#34;&gt;Classic Photos App.&lt;/h3&gt;
+&lt;p&gt;Solved a UI blocking issue during batch photo processing. Offloaded Sepia filter application (Core Image) to concurrent NSOperation queues, ensuring a smooth UX during mass photo loading.&lt;/p&gt;
+
+
+
+
+
+
+&lt;div class=&#34;gallery-grid&#34; id=&#34;gallery-389a7565fe4d07a5f14453a2b08fae50&#34;&gt;
+  
+  &lt;link rel=&#34;stylesheet&#34; href=http://localhost:1313/Portfolio/css/hugo-easy-gallery.css /&gt;
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;0&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/photo/photo1.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo1.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  0 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/photo\/photo1.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;1&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/photo/photo2.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo2.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  1 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/photo\/photo2.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+  
+  
+  &lt;div class=&#34;gallery-item&#34; data-index=&#34;2&#34; data-gallery=&#34;gallery&#34;&gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/Portfolio/images/apps/photo/photo3.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; 
+             src=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo3.jpg&#34; 
+             alt=&#34;&#34;
+             onclick=&#34;openLightbox(&#39;gallery&#39;,  2 )&#34;
+             loading=&#34;lazy&#34; /&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;http://localhost:1313/Portfolio/images/apps/photo/photo3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  
+  
+  &lt;script&gt;
+  (function() {
+    const galleryId = &#39;gallery&#39;;
+    const src = &#39;\/Portfolio\/images\/apps\/photo\/photo3.jpg&#39;;
+    const caption = &#39;&#39;;
+    
+    window.galleryData = window.galleryData || {};
+    if (!window.galleryData[galleryId]) {
+      window.galleryData[galleryId] = [];
+    }
+    
+    
+    const exists = window.galleryData[galleryId].some(item =&gt; item.src === src);
+    if (!exists) {
+      window.galleryData[galleryId].push({
+        src: src,
+        caption: caption
+      });
+    }
+  })();
+  &lt;/script&gt;
+
+&lt;/div&gt;
+
+
+&lt;div id=&#34;lightbox-modal&#34; class=&#34;lightbox-modal&#34;&gt;
+  &lt;span class=&#34;close-btn&#34; onclick=&#34;closeLightbox()&#34;&gt;&amp;times;&lt;/span&gt;
+  &lt;button class=&#34;nav-btn prev-btn&#34; onclick=&#34;navigateLightbox(-1)&#34;&gt;&amp;#10094;&lt;/button&gt;
+  &lt;button class=&#34;nav-btn next-btn&#34; onclick=&#34;navigateLightbox(1)&#34;&gt;&amp;#10095;&lt;/button&gt;
+  
+  &lt;div class=&#34;lightbox-container&#34;&gt;
+    &lt;img class=&#34;lightbox-content&#34; id=&#34;lightbox-img&#34; src=&#34;&#34; alt=&#34;&#34;&gt;
+    &lt;div id=&#34;lightbox-caption&#34; class=&#34;lightbox-caption&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;lightbox-counter&#34; class=&#34;lightbox-counter&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry {
+  column-count: 3;
+  column-gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-masonry .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.gallery-flex .gallery-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
+
+.gallery-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.gallery-cards .gallery-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.gallery-cards .gallery-item img {
+  height: 200px;
+}
+
+ 
+.gallery-item {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+ 
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-modal.show {
+  display: flex;
+}
+
+.lightbox-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+}
+
+.lightbox-modal .close-btn {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.lightbox-modal .close-btn:hover {
+  transform: rotate(90deg);
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.lightbox-modal .lightbox-content {
+  max-width: 85vw;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption {
+  color: rgba(255,255,255,0.95);
+  margin-top: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.lightbox-counter {
+  color: rgba(255,255,255,0.7);
+  margin-top: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery-masonry {
+    column-count: 2;
+  }
+  
+  .gallery-item img {
+    height: 150px;
+  }
+  
+  .lightbox-modal .close-btn {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-btn {
+    font-size: 30px;
+    padding: 12px 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .lightbox-caption {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+  }
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+
+window.galleryData = window.galleryData || {};
+
+let currentGalleryId = null;
+let currentIndex = 0;
+
+function openLightbox(galleryId, index) {
+  currentGalleryId = galleryId;
+  currentIndex = index;
+  
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.add(&#39;show&#39;);
+  modal.style.display = &#39;flex&#39;;
+  document.body.style.overflow = &#39;hidden&#39;;
+  
+  updateLightbox();
+}
+
+function closeLightbox() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  modal.classList.remove(&#39;show&#39;);
+  modal.style.display = &#39;none&#39;;
+  document.body.style.overflow = &#39;auto&#39;;
+  currentGalleryId = null;
+}
+
+function navigateLightbox(direction) {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  currentIndex = (currentIndex + direction + images.length) % images.length;
+  updateLightbox();
+}
+
+function updateLightbox() {
+  if (!currentGalleryId) return;
+  
+  const images = window.galleryData[currentGalleryId];
+  if (!images || images.length === 0) return;
+  
+  const img = document.getElementById(&#39;lightbox-img&#39;);
+  const captionEl = document.getElementById(&#39;lightbox-caption&#39;);
+  const counter = document.getElementById(&#39;lightbox-counter&#39;);
+  const image = images[currentIndex];
+  
+  if (image) {
+    img.src = image.src;
+    captionEl.textContent = image.caption || &#39;&#39;;
+    counter.textContent = `${currentIndex + 1} / ${images.length}`;
+  }
+}
+
+
+document.addEventListener(&#39;keydown&#39;, function(e) {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal.classList.contains(&#39;show&#39;)) {
+    if (e.key === &#39;Escape&#39;) closeLightbox();
+    if (e.key === &#39;ArrowLeft&#39;) navigateLightbox(-1);
+    if (e.key === &#39;ArrowRight&#39;) navigateLightbox(1);
+  }
+});
+
+
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+  const modal = document.getElementById(&#39;lightbox-modal&#39;);
+  if (modal) {
+    modal.addEventListener(&#39;click&#39;, function(e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+&lt;p&gt;Language: Swift 1.2. Core Framework: Core Image.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Резюме</title>
+      <link>http://localhost:1313/Portfolio/en/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Portfolio/en/cv/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;резюме&#34; loading=&#34;lazy&#34; src=&#34;cv.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

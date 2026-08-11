@@ -150,11 +150,11 @@ title: 'Исследовательские проекты'
 - Освоил современную конкурентную модель Swift (async/await) и фреймворк Combine на практике, сравнив различные стратегии асинхронной загрузки данных.
 
 {{< gallery layout="grid" id="gallery6" >}}
-  {{< figure src="images/rapp/edu/storage/storage_1.jpg" caption="Список файлов">}}
-  {{< figure src="images/rapp/edu/storage/storage_2.jpg" caption="Тарифные планы">}}
-  {{< figure src="images/rapp/edu/storage/storage_4.jpg" caption="Процесс загрузки файла">}}
-  {{< figure src="images/rapp/edu/storage/storage_5.jpg" caption="Превью загруженного файла">}}
-  {{< figure src="images/rapp/edu/storage/storage_6.jpg" caption="Параллельная загрузка частей файла">}}
+  {{< figure src="images/personal/storage/storage_1.jpg" caption="Список файлов">}}
+  {{< figure src="images/personal/storage/storage_2.jpg" caption="Тарифные планы">}}
+  {{< figure src="images/personal/storage/storage_4.jpg" caption="Процесс загрузки файла">}}
+  {{< figure src="images/personal/storage/storage_5.jpg" caption="Превью загруженного файла">}}
+  {{< figure src="images/personal/storage/storage_6.jpg" caption="Параллельная загрузка частей файла">}}
 {{< /gallery >}}
 
 [Проект на Github](https://github.com/infoweb77/SuperStorage)
@@ -174,25 +174,25 @@ title: 'Исследовательские проекты'
 **iOS-версия**
 
 {{< gallery layout="grid" id="gallery7" >}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_1.jpg" caption="Экран авторизации">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_2.jpg" caption="Карточка для обучения">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_3.jpg" caption="Свайп карточек">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_5.jpg" caption="Экран проверки">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_6.jpg" caption="Правильный ответ">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_7.jpg" caption="Экран настроек">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_8.jpg" caption="Выбор цвета карточек">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_10.jpg" caption="Темная тема">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_12.jpg" caption="Свайп карточек">}}
+  {{< figure src="images/personal/kuchi/kuchi_1.jpg" caption="Экран авторизации">}}
+  {{< figure src="images/personal/kuchi/kuchi_2.jpg" caption="Карточка для обучения">}}
+  {{< figure src="images/personal/kuchi/kuchi_3.jpg" caption="Свайп карточек">}}
+  {{< figure src="images/personal/kuchi/kuchi_5.jpg" caption="Экран проверки">}}
+  {{< figure src="images/personal/kuchi/kuchi_6.jpg" caption="Правильный ответ">}}
+  {{< figure src="images/personal/kuchi/kuchi_7.jpg" caption="Экран настроек">}}
+  {{< figure src="images/personal/kuchi/kuchi_8.jpg" caption="Выбор цвета карточек">}}
+  {{< figure src="images/personal/kuchi/kuchi_10.jpg" caption="Темная тема">}}
+  {{< figure src="images/personal/kuchi/kuchi_12.jpg" caption="Свайп карточек">}}
 {{< /gallery >}}
 
 **macOS-версия**
 
 {{< gallery layout="grid" id="gallery8" >}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_14.jpg" caption="Экран входа">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_15.jpg" caption="Экран настроек">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_16.jpg" caption="Карточка для обучения">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_17.jpg" caption="Правильный ответ">}}
-  {{< figure src="images/rapp/edu/kuchi/kuchi_18.jpg" caption="Карточка для обученияи">}}
+  {{< figure src="images/personal/kuchi/kuchi_14.jpg" caption="Экран входа">}}
+  {{< figure src="images/personal/kuchi/kuchi_15.jpg" caption="Экран настроек">}}
+  {{< figure src="images/personal/kuchi/kuchi_16.jpg" caption="Карточка для обучения">}}
+  {{< figure src="images/personal/kuchi/kuchi_17.jpg" caption="Правильный ответ">}}
+  {{< figure src="images/personal/kuchi/kuchi_18.jpg" caption="Карточка для обученияи">}}
 {{< /gallery >}}
 
 [Kuchi на Github](https://github.com/infoweb77/Kuchi)
@@ -209,15 +209,15 @@ title: 'Исследовательские проекты'
 - Навыки SwiftUI пригодились при вёрстке Kotlin MultiPlatform-приложения в Rapporto.
 
 {{< gallery layout="grid" id="gallery9" >}}
-  {{< figure src="images/rapp/edu/airport/airport_1.jpg" caption="Экран входа">}}
-  {{< figure src="images/rapp/edu/airport/airport_2.jpg" caption="Время полета">}}
-  {{< figure src="images/rapp/edu/airport/airport_3.jpg" caption="Экран достижений">}}
-  {{< figure src="images/rapp/edu/airport/airport_6.jpg" caption="Поиск">}}
-  {{< figure src="images/rapp/edu/airport/airport_7.jpg" caption="Результаты поиска">}}
-  {{< figure src="images/rapp/edu/airport/airport_8.jpg" caption="Вылетающие рейсы">}}
-  {{< figure src="images/rapp/edu/airport/airport_9.jpg" caption="Информация о рейсах">}}
-  {{< figure src="images/rapp/edu/airport/airport_10.jpg" caption="Информация о рейсе">}}
-  {{< figure src="images/rapp/edu/airport/airport_11.jpg" caption="Информация о терминале">}}
+  {{< figure src="images/personal/airport/airport_1.jpg" caption="Экран входа">}}
+  {{< figure src="images/personal/airport/airport_2.jpg" caption="Время полета">}}
+  {{< figure src="images/personal/airport/airport_3.jpg" caption="Экран достижений">}}
+  {{< figure src="images/personal/airport/airport_6.jpg" caption="Поиск">}}
+  {{< figure src="images/personal/airport/airport_7.jpg" caption="Результаты поиска">}}
+  {{< figure src="images/personal/airport/airport_8.jpg" caption="Вылетающие рейсы">}}
+  {{< figure src="images/personal/airport/airport_9.jpg" caption="Информация о рейсах">}}
+  {{< figure src="images/personal/airport/airport_10.jpg" caption="Информация о рейсе">}}
+  {{< figure src="images/personal/airport/airport_11.jpg" caption="Информация о терминале">}}
 {{< /gallery >}}
 
 [MountainAirport на Github](https://github.com/infoweb77/MountainAirport)
